@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257430B68603D96CB2DBA795 /* libPods-YKZB_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */; };
 		517A9DC71FA4116000906662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC61FA4116000906662 /* main.m */; };
 		517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC91FA4116000906662 /* AppDelegate.m */; };
 		517A9DD01FA4116000906662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DCE1FA4116000906662 /* Main.storyboard */; };
 		517A9DD21FA4116000906662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD11FA4116000906662 /* Assets.xcassets */; };
 		517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD31FA4116000906662 /* LaunchScreen.storyboard */; };
 		517A9DE01FA4116000906662 /* YKZB_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DDF1FA4116000906662 /* YKZB_iOSTests.m */; };
+		5BC821C1945D5302AE23C54F /* libPods-YKZB_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43F46EDC8F08255AE95BFF98 /* Pods-YKZB_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		517A9DC21FA4116000906662 /* YKZB_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKZB_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DC61FA4116000906662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		517A9DC81FA4116000906662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +40,11 @@
 		517A9DDB1FA4116000906662 /* YKZB_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKZB_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DDF1FA4116000906662 /* YKZB_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKZB_iOSTests.m; sourceTree = "<group>"; };
 		517A9DE11FA4116000906662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AF3EA99151A0A04AD1622140 /* Pods-YKZB_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F88472891B9821D0F5F867 /* Pods-YKZB_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257430B68603D96CB2DBA795 /* libPods-YKZB_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC821C1945D5302AE23C54F /* libPods-YKZB_iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,8 @@
 				517A9DC41FA4116000906662 /* YKZB_iOS */,
 				517A9DDE1FA4116000906662 /* YKZB_iOSTests */,
 				517A9DC31FA4116000906662 /* Products */,
+				8B3ACB0503FD3454F4226061 /* Pods */,
+				88A7EE49287FD72E5F854473 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -330,6 +342,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		88A7EE49287FD72E5F854473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */,
+				5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B3ACB0503FD3454F4226061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */,
+				F0F88472891B9821D0F5F867 /* Pods-YKZB_iOS.release.xcconfig */,
+				AF3EA99151A0A04AD1622140 /* Pods-YKZB_iOSTests.debug.xcconfig */,
+				43F46EDC8F08255AE95BFF98 /* Pods-YKZB_iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 517A9DE41FA4116000906662 /* Build configuration list for PBXNativeTarget "YKZB_iOS" */;
 			buildPhases = (
+				78FFBE283E608E4F3E7686BE /* [CP] Check Pods Manifest.lock */,
 				517A9DBE1FA4116000906662 /* Sources */,
 				517A9DBF1FA4116000906662 /* Frameworks */,
 				517A9DC01FA4116000906662 /* Resources */,
+				142C64DF0126740E5227311E /* [CP] Embed Pods Frameworks */,
+				5103261E5313CD92F2AA7F36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,9 +389,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 517A9DE71FA4116000906662 /* Build configuration list for PBXNativeTarget "YKZB_iOSTests" */;
 			buildPhases = (
+				D25A9D886C6C78529BC7AECC /* [CP] Check Pods Manifest.lock */,
 				517A9DD71FA4116000906662 /* Sources */,
 				517A9DD81FA4116000906662 /* Frameworks */,
 				517A9DD91FA4116000906662 /* Resources */,
+				3896FCC021077DA4EF9AE6FE /* [CP] Embed Pods Frameworks */,
+				1B07F6F946488622E28F61CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -427,6 +465,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142C64DF0126740E5227311E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B07F6F946488622E28F61CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3896FCC021077DA4EF9AE6FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5103261E5313CD92F2AA7F36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FFBE283E608E4F3E7686BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D25A9D886C6C78529BC7AECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		517A9DBE1FA4116000906662 /* Sources */ = {
@@ -568,6 +699,7 @@
 		};
 		517A9DE51FA4116000906662 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
@@ -579,6 +711,7 @@
 		};
 		517A9DE61FA4116000906662 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F88472891B9821D0F5F867 /* Pods-YKZB_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
@@ -590,6 +723,7 @@
 		};
 		517A9DE81FA4116000906662 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3EA99151A0A04AD1622140 /* Pods-YKZB_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YKZB_iOSTests/Info.plist;
@@ -602,6 +736,7 @@
 		};
 		517A9DE91FA4116000906662 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F46EDC8F08255AE95BFF98 /* Pods-YKZB_iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YKZB_iOSTests/Info.plist;
