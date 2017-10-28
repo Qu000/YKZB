@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		257430B68603D96CB2DBA795 /* libPods-YKZB_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */; };
+		5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */; };
+		5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD221FA4273500C9A7B7 /* JHTabBar.m */; };
+		5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */; };
+		5149F90D1FA4359400AA5FC6 /* JHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F90B1FA4359400AA5FC6 /* JHMainViewController.m */; };
+		5149F90E1FA4359400AA5FC6 /* JHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F90C1FA4359400AA5FC6 /* JHMainViewController.xib */; };
+		5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */; };
+		5149F9131FA435B200AA5FC6 /* JHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */; };
+		5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9151FA4369F00AA5FC6 /* JHBaseNavViewController.m */; };
+		5149F91A1FA458F800AA5FC6 /* JHLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9181FA458F800AA5FC6 /* JHLaunchViewController.m */; };
+		5149F91B1FA458F800AA5FC6 /* JHLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F9191FA458F800AA5FC6 /* JHLaunchViewController.xib */; };
+		5149F91F1FA462D700AA5FC6 /* JHFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F91D1FA462D700AA5FC6 /* JHFocuseViewController.m */; };
+		5149F9201FA462D700AA5FC6 /* JHFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F91E1FA462D700AA5FC6 /* JHFocuseViewController.xib */; };
+		5149F9241FA4630F00AA5FC6 /* JHHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9221FA4630F00AA5FC6 /* JHHotViewController.m */; };
+		5149F9251FA4630F00AA5FC6 /* JHHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F9231FA4630F00AA5FC6 /* JHHotViewController.xib */; };
+		5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9271FA4633500AA5FC6 /* JHNearViewController.m */; };
+		5149F92A1FA4633500AA5FC6 /* JHNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */; };
+		5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */; };
 		517A9DC71FA4116000906662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC61FA4116000906662 /* main.m */; };
 		517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC91FA4116000906662 /* AppDelegate.m */; };
 		517A9DD01FA4116000906662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DCE1FA4116000906662 /* Main.storyboard */; };
@@ -29,6 +45,34 @@
 
 /* Begin PBXFileReference section */
 		43F46EDC8F08255AE95BFF98 /* Pods-YKZB_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5147AD1E1FA4271200C9A7B7 /* JHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBarViewController.h; sourceTree = "<group>"; };
+		5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBarViewController.m; sourceTree = "<group>"; };
+		5147AD211FA4273500C9A7B7 /* JHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBar.h; sourceTree = "<group>"; };
+		5147AD221FA4273500C9A7B7 /* JHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBar.m; sourceTree = "<group>"; };
+		5149F9071FA4357200AA5FC6 /* JHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseViewController.h; sourceTree = "<group>"; };
+		5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseViewController.m; sourceTree = "<group>"; };
+		5149F90A1FA4359400AA5FC6 /* JHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMainViewController.h; sourceTree = "<group>"; };
+		5149F90B1FA4359400AA5FC6 /* JHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMainViewController.m; sourceTree = "<group>"; };
+		5149F90C1FA4359400AA5FC6 /* JHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHMainViewController.xib; sourceTree = "<group>"; };
+		5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProfileViewController.h; sourceTree = "<group>"; };
+		5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProfileViewController.m; sourceTree = "<group>"; };
+		5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHProfileViewController.xib; sourceTree = "<group>"; };
+		5149F9141FA4369F00AA5FC6 /* JHBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseNavViewController.h; sourceTree = "<group>"; };
+		5149F9151FA4369F00AA5FC6 /* JHBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseNavViewController.m; sourceTree = "<group>"; };
+		5149F9171FA458F800AA5FC6 /* JHLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLaunchViewController.h; sourceTree = "<group>"; };
+		5149F9181FA458F800AA5FC6 /* JHLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLaunchViewController.m; sourceTree = "<group>"; };
+		5149F9191FA458F800AA5FC6 /* JHLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLaunchViewController.xib; sourceTree = "<group>"; };
+		5149F91C1FA462D700AA5FC6 /* JHFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFocuseViewController.h; sourceTree = "<group>"; };
+		5149F91D1FA462D700AA5FC6 /* JHFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFocuseViewController.m; sourceTree = "<group>"; };
+		5149F91E1FA462D700AA5FC6 /* JHFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHFocuseViewController.xib; sourceTree = "<group>"; };
+		5149F9211FA4630F00AA5FC6 /* JHHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHotViewController.h; sourceTree = "<group>"; };
+		5149F9221FA4630F00AA5FC6 /* JHHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHotViewController.m; sourceTree = "<group>"; };
+		5149F9231FA4630F00AA5FC6 /* JHHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHHotViewController.xib; sourceTree = "<group>"; };
+		5149F9261FA4633500AA5FC6 /* JHNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNearViewController.h; sourceTree = "<group>"; };
+		5149F9271FA4633500AA5FC6 /* JHNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNearViewController.m; sourceTree = "<group>"; };
+		5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHNearViewController.xib; sourceTree = "<group>"; };
+		5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMainTopView.h; sourceTree = "<group>"; };
+		5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMainTopView.m; sourceTree = "<group>"; };
 		517A9DC21FA4116000906662 /* YKZB_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKZB_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DC61FA4116000906662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		517A9DC81FA4116000906662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +84,8 @@
 		517A9DDB1FA4116000906662 /* YKZB_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKZB_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DDF1FA4116000906662 /* YKZB_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKZB_iOSTests.m; sourceTree = "<group>"; };
 		517A9DE11FA4116000906662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A9E071FA41AB300906662 /* YKZB.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKZB.pch; sourceTree = "<group>"; };
+		517A9E0B1FA424AA00906662 /* JHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMacros.h; sourceTree = "<group>"; };
 		5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257430B68603D96CB2DBA795 /* libPods-YKZB_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +139,7 @@
 				517A9DC81FA4116000906662 /* AppDelegate.h */,
 				517A9DC91FA4116000906662 /* AppDelegate.m */,
 				517A9DCE1FA4116000906662 /* Main.storyboard */,
+				517A9E071FA41AB300906662 /* YKZB.pch */,
 				517A9DD11FA4116000906662 /* Assets.xcassets */,
 				517A9DD31FA4116000906662 /* LaunchScreen.storyboard */,
 				517A9DD61FA4116000906662 /* Info.plist */,
@@ -138,6 +184,14 @@
 		517A9DEB1FA4140300906662 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5147AD1E1FA4271200C9A7B7 /* JHTabBarViewController.h */,
+				5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */,
+				5147AD211FA4273500C9A7B7 /* JHTabBar.h */,
+				5147AD221FA4273500C9A7B7 /* JHTabBar.m */,
+				5149F9071FA4357200AA5FC6 /* JHBaseViewController.h */,
+				5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */,
+				5149F9141FA4369F00AA5FC6 /* JHBaseNavViewController.h */,
+				5149F9151FA4369F00AA5FC6 /* JHBaseNavViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -225,6 +279,9 @@
 		517A9DF61FA4140300906662 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5149F9171FA458F800AA5FC6 /* JHLaunchViewController.h */,
+				5149F9181FA458F800AA5FC6 /* JHLaunchViewController.m */,
+				5149F9191FA458F800AA5FC6 /* JHLaunchViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +317,7 @@
 		517A9DFB1FA4140300906662 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				517A9E0B1FA424AA00906662 /* JHMacros.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -306,10 +364,10 @@
 		517A9E011FA4140300906662 /* Show */ = {
 			isa = PBXGroup;
 			children = (
+				517A9E051FA4140300906662 /* View */,
 				517A9E021FA4140300906662 /* Controller */,
 				517A9E031FA4140300906662 /* Handler */,
 				517A9E041FA4140300906662 /* Model */,
-				517A9E051FA4140300906662 /* View */,
 			);
 			path = Show;
 			sourceTree = "<group>";
@@ -317,6 +375,21 @@
 		517A9E021FA4140300906662 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5149F90A1FA4359400AA5FC6 /* JHMainViewController.h */,
+				5149F90B1FA4359400AA5FC6 /* JHMainViewController.m */,
+				5149F90C1FA4359400AA5FC6 /* JHMainViewController.xib */,
+				5149F91C1FA462D700AA5FC6 /* JHFocuseViewController.h */,
+				5149F91D1FA462D700AA5FC6 /* JHFocuseViewController.m */,
+				5149F91E1FA462D700AA5FC6 /* JHFocuseViewController.xib */,
+				5149F9211FA4630F00AA5FC6 /* JHHotViewController.h */,
+				5149F9221FA4630F00AA5FC6 /* JHHotViewController.m */,
+				5149F9231FA4630F00AA5FC6 /* JHHotViewController.xib */,
+				5149F9261FA4633500AA5FC6 /* JHNearViewController.h */,
+				5149F9271FA4633500AA5FC6 /* JHNearViewController.m */,
+				5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */,
+				5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */,
+				5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */,
+				5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -338,6 +411,8 @@
 		517A9E051FA4140300906662 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */,
+				5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -451,9 +526,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5149F92A1FA4633500AA5FC6 /* JHNearViewController.xib in Resources */,
+				5149F9131FA435B200AA5FC6 /* JHProfileViewController.xib in Resources */,
+				5149F9201FA462D700AA5FC6 /* JHFocuseViewController.xib in Resources */,
 				517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */,
 				517A9DD21FA4116000906662 /* Assets.xcassets in Resources */,
+				5149F9251FA4630F00AA5FC6 /* JHHotViewController.xib in Resources */,
+				5149F91B1FA458F800AA5FC6 /* JHLaunchViewController.xib in Resources */,
 				517A9DD01FA4116000906662 /* Main.storyboard in Resources */,
+				5149F90E1FA4359400AA5FC6 /* JHMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,8 +645,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5149F91A1FA458F800AA5FC6 /* JHLaunchViewController.m in Sources */,
+				5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */,
+				5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */,
+				5149F91F1FA462D700AA5FC6 /* JHFocuseViewController.m in Sources */,
 				517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */,
+				5149F9241FA4630F00AA5FC6 /* JHHotViewController.m in Sources */,
+				5149F90D1FA4359400AA5FC6 /* JHMainViewController.m in Sources */,
 				517A9DC71FA4116000906662 /* main.m in Sources */,
+				5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */,
+				5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */,
+				5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */,
+				5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */,
+				5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +794,8 @@
 			baseConfigurationReference = 796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YKZB_iOS/YKZB.pch";
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.YKZB-iOS";
@@ -714,6 +808,8 @@
 			baseConfigurationReference = F0F88472891B9821D0F5F867 /* Pods-YKZB_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YKZB_iOS/YKZB.pch";
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.YKZB-iOS";
@@ -766,6 +862,7 @@
 				517A9DE61FA4116000906662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		517A9DE71FA4116000906662 /* Build configuration list for PBXNativeTarget "YKZB_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -774,6 +871,7 @@
 				517A9DE91FA4116000906662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
