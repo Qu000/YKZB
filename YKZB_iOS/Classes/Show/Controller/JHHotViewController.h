@@ -8,6 +8,6 @@
 
 #import "JHBaseViewController.h"
 
-@interface JHHotViewController : JHBaseViewController
+@interface JHHotViewController : UITableViewController
 
 @end

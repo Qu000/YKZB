@@ -7,15 +7,33 @@
 //
 
 #import "JHMainViewController.h"
+#import "JHMainTopView.h"
 
 @interface JHMainViewController ()<UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UIScrollView *contentScrollView;
 
 @property (nonatomic, strong) NSArray * dataList;
+
+@property (nonatomic, strong) JHMainTopView * topView;;
 @end
 
 @implementation JHMainViewController
 
+
+-(JHMainTopView *)topView{
+    if (!_topView) {
+        _topView = [[JHMainTopView alloc]initWithFrame:CGRectMake(0, 0, 200, 50) titleNames:self.dataList];
+        
+        @weakify(self);
+        _topView.block = ^(NSInteger tag) {
+            @strongify(self);
+            CGPoint point = CGPointMake(tag * SCREEN_WIDTH, self.contentScrollView.contentOffset.y);
+            [self.contentScrollView setContentOffset:point animated:YES];
+            
+        };
+    }
+    return _topView;
+}
 
 -(NSArray *)dataList{
     if (!_dataList) {
@@ -41,6 +59,10 @@
 -(void)setupNavItem{
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"global_search"] style:UIBarButtonItemStyleDone target:nil action:nil];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"title_button_more"] style:UIBarButtonItemStyleDone target:nil action:nil];
+
+
+    self.navigationItem.titleView = self.topView;
+
 }
 
 #pragma mark---添加子视图控制器
@@ -66,7 +88,7 @@
     self.contentScrollView.contentOffset = CGPointMake(SCREEN_WIDTH, 0);
     
     //进入主控制器时加载页面
-    [self scrollViewDidEndDecelerating:self.contentScrollView];
+    [self scrollViewDidEndScrollingAnimation:self.contentScrollView];
 }
 
 #pragma mark---UIScrollViewDelegate
@@ -78,6 +100,9 @@
     
     //获取第几个  的索引值
     NSInteger idx = offset / width;
+    
+    //传递联动索引值给topView
+    [self.topView scrolling:idx];
     
     //根据索引值，返回vc的引用
     UIViewController * vc = self.childViewControllers[idx];
@@ -91,6 +116,14 @@
     //将子控制器view加入到scrollView上
     [scrollView addSubview:vc.view];
 }
+
+//动画结束时调用(点击topView的button时，走的代理;因为topView中button的改变，不会走scrollViewDidEndDecelerating)
+-(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+
+    [self scrollViewDidEndDecelerating:scrollView];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

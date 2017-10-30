@@ -24,13 +24,24 @@
 		5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9271FA4633500AA5FC6 /* JHNearViewController.m */; };
 		5149F92A1FA4633500AA5FC6 /* JHNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */; };
 		5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */; };
+		5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9321FA4829E00AA5FC6 /* HttpTool.m */; };
+		5149F9361FA4829E00AA5FC6 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9341FA4829E00AA5FC6 /* UIImageView+SDWebImage.m */; };
 		517A9DC71FA4116000906662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC61FA4116000906662 /* main.m */; };
 		517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC91FA4116000906662 /* AppDelegate.m */; };
 		517A9DD01FA4116000906662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DCE1FA4116000906662 /* Main.storyboard */; };
 		517A9DD21FA4116000906662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD11FA4116000906662 /* Assets.xcassets */; };
 		517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD31FA4116000906662 /* LaunchScreen.storyboard */; };
 		517A9DE01FA4116000906662 /* YKZB_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DDF1FA4116000906662 /* YKZB_iOSTests.m */; };
+		51B597921FA56D600089D6B1 /* JHBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597911FA56D600089D6B1 /* JHBaseHandler.m */; };
+		51B597951FA56E8F0089D6B1 /* JHLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597941FA56E8F0089D6B1 /* JHLiveHandler.m */; };
+		51B597971FA573A10089D6B1 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597961FA573A10089D6B1 /* Foundation+Log.m */; };
+		51B5979A1FA578610089D6B1 /* JHLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597991FA578610089D6B1 /* JHLive.m */; };
+		51B5979D1FA578B20089D6B1 /* JHCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5979C1FA578B20089D6B1 /* JHCreator.m */; };
+		51B597A01FA57BA60089D6B1 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */; };
+		51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */; };
+		51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */; };
 		5BC821C1945D5302AE23C54F /* libPods-YKZB_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */; };
+		FDD962F4AC4C6410A46A2226 /* libPods-YKZB_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +65,9 @@
 		5149F90A1FA4359400AA5FC6 /* JHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMainViewController.h; sourceTree = "<group>"; };
 		5149F90B1FA4359400AA5FC6 /* JHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMainViewController.m; sourceTree = "<group>"; };
 		5149F90C1FA4359400AA5FC6 /* JHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHMainViewController.xib; sourceTree = "<group>"; };
-		5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProfileViewController.h; sourceTree = "<group>"; };
-		5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProfileViewController.m; sourceTree = "<group>"; };
-		5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHProfileViewController.xib; sourceTree = "<group>"; };
+		5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHProfileViewController.h; path = ../../Show/Controller/JHProfileViewController.h; sourceTree = "<group>"; };
+		5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHProfileViewController.m; path = ../../Show/Controller/JHProfileViewController.m; sourceTree = "<group>"; };
+		5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JHProfileViewController.xib; path = ../../Show/Controller/JHProfileViewController.xib; sourceTree = "<group>"; };
 		5149F9141FA4369F00AA5FC6 /* JHBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseNavViewController.h; sourceTree = "<group>"; };
 		5149F9151FA4369F00AA5FC6 /* JHBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseNavViewController.m; sourceTree = "<group>"; };
 		5149F9171FA458F800AA5FC6 /* JHLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLaunchViewController.h; sourceTree = "<group>"; };
@@ -73,6 +84,11 @@
 		5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHNearViewController.xib; sourceTree = "<group>"; };
 		5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMainTopView.h; sourceTree = "<group>"; };
 		5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMainTopView.m; sourceTree = "<group>"; };
+		5149F92E1FA481E200AA5FC6 /* JHAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAPIConfig.h; sourceTree = "<group>"; };
+		5149F9311FA4829E00AA5FC6 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		5149F9321FA4829E00AA5FC6 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		5149F9331FA4829E00AA5FC6 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		5149F9341FA4829E00AA5FC6 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
 		517A9DC21FA4116000906662 /* YKZB_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKZB_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DC61FA4116000906662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		517A9DC81FA4116000906662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +102,20 @@
 		517A9DE11FA4116000906662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517A9E071FA41AB300906662 /* YKZB.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKZB.pch; sourceTree = "<group>"; };
 		517A9E0B1FA424AA00906662 /* JHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMacros.h; sourceTree = "<group>"; };
+		51B597901FA56D600089D6B1 /* JHBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseHandler.h; sourceTree = "<group>"; };
+		51B597911FA56D600089D6B1 /* JHBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseHandler.m; sourceTree = "<group>"; };
+		51B597931FA56E8F0089D6B1 /* JHLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveHandler.h; sourceTree = "<group>"; };
+		51B597941FA56E8F0089D6B1 /* JHLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveHandler.m; sourceTree = "<group>"; };
+		51B597961FA573A10089D6B1 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Log.m"; path = "Classes/Show/View/Foundation+Log.m"; sourceTree = "<group>"; };
+		51B597981FA578610089D6B1 /* JHLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLive.h; sourceTree = "<group>"; };
+		51B597991FA578610089D6B1 /* JHLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLive.m; sourceTree = "<group>"; };
+		51B5979B1FA578B20089D6B1 /* JHCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCreator.h; sourceTree = "<group>"; };
+		51B5979C1FA578B20089D6B1 /* JHCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCreator.m; sourceTree = "<group>"; };
+		51B5979E1FA57BA60089D6B1 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveCell.h; sourceTree = "<group>"; };
+		51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveCell.m; sourceTree = "<group>"; };
+		51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveCell.xib; sourceTree = "<group>"; };
 		5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD962F4AC4C6410A46A2226 /* libPods-YKZB_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +171,7 @@
 				517A9DC91FA4116000906662 /* AppDelegate.m */,
 				517A9DCE1FA4116000906662 /* Main.storyboard */,
 				517A9E071FA41AB300906662 /* YKZB.pch */,
+				51B597961FA573A10089D6B1 /* Foundation+Log.m */,
 				517A9DD11FA4116000906662 /* Assets.xcassets */,
 				517A9DD31FA4116000906662 /* LaunchScreen.storyboard */,
 				517A9DD61FA4116000906662 /* Info.plist */,
@@ -192,6 +224,8 @@
 				5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */,
 				5149F9141FA4369F00AA5FC6 /* JHBaseNavViewController.h */,
 				5149F9151FA4369F00AA5FC6 /* JHBaseNavViewController.m */,
+				51B597901FA56D600089D6B1 /* JHBaseHandler.h */,
+				51B597911FA56D600089D6B1 /* JHBaseHandler.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -310,6 +344,11 @@
 		517A9DFA1FA4140300906662 /* NetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				5149F92E1FA481E200AA5FC6 /* JHAPIConfig.h */,
+				5149F9311FA4829E00AA5FC6 /* HttpTool.h */,
+				5149F9321FA4829E00AA5FC6 /* HttpTool.m */,
+				5149F9331FA4829E00AA5FC6 /* UIImageView+SDWebImage.h */,
+				5149F9341FA4829E00AA5FC6 /* UIImageView+SDWebImage.m */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -318,6 +357,8 @@
 			isa = PBXGroup;
 			children = (
 				517A9E0B1FA424AA00906662 /* JHMacros.h */,
+				51B5979E1FA57BA60089D6B1 /* MJExtensionConfig.h */,
+				51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -336,6 +377,9 @@
 		517A9DFD1FA4140300906662 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */,
+				5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */,
+				5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -364,10 +408,10 @@
 		517A9E011FA4140300906662 /* Show */ = {
 			isa = PBXGroup;
 			children = (
+				517A9E041FA4140300906662 /* Model */,
 				517A9E051FA4140300906662 /* View */,
 				517A9E021FA4140300906662 /* Controller */,
 				517A9E031FA4140300906662 /* Handler */,
-				517A9E041FA4140300906662 /* Model */,
 			);
 			path = Show;
 			sourceTree = "<group>";
@@ -387,9 +431,6 @@
 				5149F9261FA4633500AA5FC6 /* JHNearViewController.h */,
 				5149F9271FA4633500AA5FC6 /* JHNearViewController.m */,
 				5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */,
-				5149F90F1FA435B200AA5FC6 /* JHProfileViewController.h */,
-				5149F9101FA435B200AA5FC6 /* JHProfileViewController.m */,
-				5149F9111FA435B200AA5FC6 /* JHProfileViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -397,6 +438,8 @@
 		517A9E031FA4140300906662 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				51B597931FA56E8F0089D6B1 /* JHLiveHandler.h */,
+				51B597941FA56E8F0089D6B1 /* JHLiveHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -404,6 +447,10 @@
 		517A9E041FA4140300906662 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51B597981FA578610089D6B1 /* JHLive.h */,
+				51B597991FA578610089D6B1 /* JHLive.m */,
+				51B5979B1FA578B20089D6B1 /* JHCreator.h */,
+				51B5979C1FA578B20089D6B1 /* JHCreator.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -413,6 +460,9 @@
 			children = (
 				5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */,
 				5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */,
+				51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */,
+				51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */,
+				51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -535,6 +585,7 @@
 				5149F91B1FA458F800AA5FC6 /* JHLaunchViewController.xib in Resources */,
 				517A9DD01FA4116000906662 /* Main.storyboard in Resources */,
 				5149F90E1FA4359400AA5FC6 /* JHMainViewController.xib in Resources */,
+				51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,17 +698,26 @@
 			files = (
 				5149F91A1FA458F800AA5FC6 /* JHLaunchViewController.m in Sources */,
 				5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */,
+				51B597A01FA57BA60089D6B1 /* MJExtensionConfig.m in Sources */,
+				51B597951FA56E8F0089D6B1 /* JHLiveHandler.m in Sources */,
 				5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */,
+				51B5979D1FA578B20089D6B1 /* JHCreator.m in Sources */,
 				5149F91F1FA462D700AA5FC6 /* JHFocuseViewController.m in Sources */,
+				51B597971FA573A10089D6B1 /* Foundation+Log.m in Sources */,
 				517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */,
+				51B597921FA56D600089D6B1 /* JHBaseHandler.m in Sources */,
+				5149F9361FA4829E00AA5FC6 /* UIImageView+SDWebImage.m in Sources */,
 				5149F9241FA4630F00AA5FC6 /* JHHotViewController.m in Sources */,
 				5149F90D1FA4359400AA5FC6 /* JHMainViewController.m in Sources */,
 				517A9DC71FA4116000906662 /* main.m in Sources */,
+				51B5979A1FA578610089D6B1 /* JHLive.m in Sources */,
 				5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */,
 				5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */,
+				51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */,
 				5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */,
 				5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */,
 				5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */,
+				5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

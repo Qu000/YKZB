@@ -12,8 +12,8 @@ target 'YKZB_iOS' do
     # Pods for testing
   end
 pod 'AFNetworking', '~> 3.1.0'
-pod 'SDWebImage', '~> 4.1.2'
 pod 'Masonry', '~> 1.1.0'
 pod 'YYKit', '~> 1.0.9'
-
+pod 'SDWebImage', '~> 3.8.1’
+pod ‘MJExtension’, ‘~> 3.0.10’
 end

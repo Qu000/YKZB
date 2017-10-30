@@ -7,31 +7,65 @@
 //
 
 #import "JHHotViewController.h"
+#import "JHLiveHandler.h"
+#import "JHLiveCell.h"
 
+static NSString *identifier = @"JHLiveCell";
 @interface JHHotViewController ()
 
+@property (nonatomic, strong) NSMutableArray * dataList;
 @end
 
 @implementation JHHotViewController
 
+
+-(NSMutableArray *)dataList{
+    if (!_dataList) {
+        _dataList = [NSMutableArray array];
+    }
+    return _dataList;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];
+    
+    [self updateUI];
+    
+//    [self loadData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)updateUI{
+    [self.tableView registerNib:[UINib nibWithNibName:@"JHLiveCell" bundle:nil] forCellReuseIdentifier:identifier];
+    
+}
+- (void)loadData{
+    [JHLiveHandler ececuteGetHotLiveTaskWithSuccess:^(id obj) {
+    //        NSLog(@"%@",obj);
+        [self.dataList addObjectsFromArray:obj];
+        [self.tableView reloadData];
+        
+    } failed:^(id obj) {
+        
+        NSLog(@"%@",obj);
+        
+    }];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark---delegate
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+//    return self.dataList.count;
+    return 2;
 }
-*/
 
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    JHLiveCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+//    cell.live = self.dataList[indexPath.row];
+    return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 70+SCREEN_WIDTH;
+}
 @end

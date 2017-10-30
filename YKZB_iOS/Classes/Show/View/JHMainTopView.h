@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^MianTopBlock)(NSInteger tag);
+
+
+
 @interface JHMainTopView : UIView
 
-
 -(instancetype)initWithFrame:(CGRect)frame titleNames:(NSArray *)titles;
+
+@property ( nonatomic, copy) MianTopBlock block;
+
+-(void)scrolling:(NSInteger)idx;
 @end
