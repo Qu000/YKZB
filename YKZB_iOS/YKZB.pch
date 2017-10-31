@@ -13,6 +13,7 @@
 #import "YYKit.h"
 #import "MJExtension.h"
 #import "UIImageView+SDWebImage.h"
+#import "UIButton+WebCache.h"
 
 #import "JHMacros.h"
 #import "JHAPIConfig.h"

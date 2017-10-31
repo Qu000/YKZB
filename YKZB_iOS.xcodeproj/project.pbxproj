@@ -39,6 +39,8 @@
 		51B5979D1FA578B20089D6B1 /* JHCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5979C1FA578B20089D6B1 /* JHCreator.m */; };
 		51B597A01FA57BA60089D6B1 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */; };
 		51BE0D311FA82377007E0E59 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE0D301FA82377007E0E59 /* IJKMediaFramework.framework */; };
+		51BE0D3C1FA85B63007E0E59 /* JHLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE0D3A1FA85B63007E0E59 /* JHLiveChatViewController.m */; };
+		51BE0D3D1FA85B63007E0E59 /* JHLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */; };
 		51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */; };
 		51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */; };
 		51CF487D1FA6D1D600179AF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */; };
@@ -129,6 +131,9 @@
 		51B5979E1FA57BA60089D6B1 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		51BE0D301FA82377007E0E59 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		51BE0D391FA85B63007E0E59 /* JHLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveChatViewController.h; sourceTree = "<group>"; };
+		51BE0D3A1FA85B63007E0E59 /* JHLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveChatViewController.m; sourceTree = "<group>"; };
+		51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveChatViewController.xib; sourceTree = "<group>"; };
 		51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveCell.h; sourceTree = "<group>"; };
 		51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveCell.m; sourceTree = "<group>"; };
 		51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveCell.xib; sourceTree = "<group>"; };
@@ -471,6 +476,7 @@
 				51CF489B1FA6D91700179AF5 /* 热门直播 */,
 				51CF489A1FA6D90900179AF5 /* 附近 */,
 				51CF48991FA6D8F900179AF5 /* 播放 */,
+				51BE0D381FA857FE007E0E59 /* 直播聊天 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -505,6 +511,16 @@
 				51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		51BE0D381FA857FE007E0E59 /* 直播聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				51BE0D391FA85B63007E0E59 /* JHLiveChatViewController.h */,
+				51BE0D3A1FA85B63007E0E59 /* JHLiveChatViewController.m */,
+				51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */,
+			);
+			name = "直播聊天";
 			sourceTree = "<group>";
 		};
 		51CF48991FA6D8F900179AF5 /* 播放 */ = {
@@ -675,6 +691,7 @@
 				517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */,
 				517A9DD21FA4116000906662 /* Assets.xcassets in Resources */,
 				5149F9251FA4630F00AA5FC6 /* JHHotViewController.xib in Resources */,
+				51BE0D3D1FA85B63007E0E59 /* JHLiveChatViewController.xib in Resources */,
 				5149F91B1FA458F800AA5FC6 /* JHLaunchViewController.xib in Resources */,
 				517A9DD01FA4116000906662 /* Main.storyboard in Resources */,
 				5149F90E1FA4359400AA5FC6 /* JHMainViewController.xib in Resources */,
@@ -811,6 +828,7 @@
 				51CF48981FA6D8F600179AF5 /* JHPlayerViewController.m in Sources */,
 				5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */,
 				5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */,
+				51BE0D3C1FA85B63007E0E59 /* JHLiveChatViewController.m in Sources */,
 				5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

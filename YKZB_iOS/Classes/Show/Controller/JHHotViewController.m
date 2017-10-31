@@ -10,6 +10,7 @@
 #import "JHLiveHandler.h"
 #import "JHLiveCell.h"
 
+#import "JHPlayerViewController.h"
 static NSString *identifier = @"JHLiveCell";
 @interface JHHotViewController ()
 
@@ -70,7 +71,12 @@ static NSString *identifier = @"JHLiveCell";
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    JHLive * live = self.dataList[indexPath.row];
+    
+    JHPlayerViewController * playerVc = [[JHPlayerViewController alloc]init];
+    playerVc.live = live;//传值
+    [self.navigationController pushViewController:playerVc animated:YES];
 }
 
 @end

@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    self.view.backgroundColor = JHRandomColor;
+    self.view.backgroundColor = [UIColor whiteColor];//JHRandomColor
 }
 
 - (void)didReceiveMemoryWarning {

@@ -23,7 +23,7 @@
 #define IMAGE_HOST @""
 
 //首页数据（热门直播）api/live/gettop
-#define API_LiveGetTop @"http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1"
+#define API_LiveGetTop @"http://116.211.167.106/api/live/aggregation?uid=609350158&interest=1"//133825214
 
 //广告地址
 #define API_Advertise @"advertise/get"
