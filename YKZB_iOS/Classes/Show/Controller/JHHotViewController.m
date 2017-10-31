@@ -33,7 +33,7 @@ static NSString *identifier = @"JHLiveCell";
     
     [self updateUI];
     
-//    [self loadData];
+    [self loadData];
 }
 
 - (void)updateUI{
@@ -42,7 +42,7 @@ static NSString *identifier = @"JHLiveCell";
 }
 - (void)loadData{
     [JHLiveHandler ececuteGetHotLiveTaskWithSuccess:^(id obj) {
-    //        NSLog(@"%@",obj);
+        NSLog(@"%@",obj);
         [self.dataList addObjectsFromArray:obj];
         [self.tableView reloadData];
         
@@ -55,17 +55,22 @@ static NSString *identifier = @"JHLiveCell";
 
 #pragma mark---delegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-//    return self.dataList.count;
-    return 2;
+    return self.dataList.count;
+//    return 2;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     JHLiveCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-//    cell.live = self.dataList[indexPath.row];
+    cell.live = self.dataList[indexPath.row];
     return cell;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 70+SCREEN_WIDTH;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 @end

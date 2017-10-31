@@ -9,7 +9,7 @@
 #import "HttpTool.h"
 #import "AFNetworking.h"
 
-static NSString * kBaseUrl = SERVER_HOST;
+static NSString * kBaseUrl = SERVER_HOST;//
 
 @interface AFHttpClient : AFHTTPSessionManager
 

@@ -16,14 +16,14 @@
 //http://service.ingkee.com/api/live/gettop
 
 
-//信息类服务器地址
-#define SERVER_HOST @"http://service.ingkee.com"
+//信息类服务器地址http://service.ingkee.com
+#define SERVER_HOST @""
 
-//图片服务器地址
-#define IMAGE_HOST @"http://img.meelive.cn/"
+//图片服务器地址http://img.meelive.cn/   http://img2.inke.cn/
+#define IMAGE_HOST @""
 
-//首页数据（热门直播）
-#define API_LiveGetTop @"api/live/gettop"
+//首页数据（热门直播）api/live/gettop
+#define API_LiveGetTop @"http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1"
 
 //广告地址
 #define API_Advertise @"advertise/get"

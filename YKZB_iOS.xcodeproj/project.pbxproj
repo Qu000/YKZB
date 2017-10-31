@@ -40,6 +40,21 @@
 		51B597A01FA57BA60089D6B1 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5979F1FA57BA60089D6B1 /* MJExtensionConfig.m */; };
 		51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */; };
 		51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */; };
+		51CF487B1FA6D13D00179AF5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487A1FA6D13D00179AF5 /* IJKMediaFramework.framework */; };
+		51CF487D1FA6D1D600179AF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */; };
+		51CF487F1FA6D1DF00179AF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487E1FA6D1DF00179AF5 /* AVFoundation.framework */; };
+		51CF48811FA6D1EE00179AF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48801FA6D1EE00179AF5 /* CoreGraphics.framework */; };
+		51CF48831FA6D1FA00179AF5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48821FA6D1FA00179AF5 /* CoreMedia.framework */; };
+		51CF48851FA6D20800179AF5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48841FA6D20800179AF5 /* CoreVideo.framework */; };
+		51CF48871FA6D21500179AF5 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48861FA6D21500179AF5 /* libbz2.tbd */; };
+		51CF48891FA6D21E00179AF5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48881FA6D21E00179AF5 /* libz.tbd */; };
+		51CF488B1FA6D22C00179AF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF488A1FA6D22C00179AF5 /* MediaPlayer.framework */; };
+		51CF488D1FA6D23C00179AF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF488C1FA6D23C00179AF5 /* MobileCoreServices.framework */; };
+		51CF488F1FA6D24D00179AF5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF488E1FA6D24D00179AF5 /* OpenGLES.framework */; };
+		51CF48911FA6D25B00179AF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48901FA6D25B00179AF5 /* QuartzCore.framework */; };
+		51CF48931FA6D26B00179AF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48921FA6D26B00179AF5 /* UIKit.framework */; };
+		51CF48951FA6D27700179AF5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF48941FA6D27700179AF5 /* VideoToolbox.framework */; };
+		51CF48981FA6D8F600179AF5 /* JHPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48971FA6D8F600179AF5 /* JHPlayerViewController.m */; };
 		5BC821C1945D5302AE23C54F /* libPods-YKZB_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */; };
 		FDD962F4AC4C6410A46A2226 /* libPods-YKZB_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */; };
 /* End PBXBuildFile section */
@@ -116,6 +131,22 @@
 		51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveCell.h; sourceTree = "<group>"; };
 		51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveCell.m; sourceTree = "<group>"; };
 		51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveCell.xib; sourceTree = "<group>"; };
+		51CF487A1FA6D13D00179AF5 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		51CF487E1FA6D1DF00179AF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		51CF48801FA6D1EE00179AF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51CF48821FA6D1FA00179AF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		51CF48841FA6D20800179AF5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		51CF48861FA6D21500179AF5 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		51CF48881FA6D21E00179AF5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		51CF488A1FA6D22C00179AF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		51CF488C1FA6D23C00179AF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		51CF488E1FA6D24D00179AF5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		51CF48901FA6D25B00179AF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		51CF48921FA6D26B00179AF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51CF48941FA6D27700179AF5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		51CF48961FA6D8F600179AF5 /* JHPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPlayerViewController.h; sourceTree = "<group>"; };
+		51CF48971FA6D8F600179AF5 /* JHPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPlayerViewController.m; sourceTree = "<group>"; };
 		5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKZB_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796EDEB7B7C668933D55E79C /* Pods-YKZB_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOS/Pods-YKZB_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +159,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CF48951FA6D27700179AF5 /* VideoToolbox.framework in Frameworks */,
+				51CF48931FA6D26B00179AF5 /* UIKit.framework in Frameworks */,
+				51CF48911FA6D25B00179AF5 /* QuartzCore.framework in Frameworks */,
+				51CF488F1FA6D24D00179AF5 /* OpenGLES.framework in Frameworks */,
+				51CF488D1FA6D23C00179AF5 /* MobileCoreServices.framework in Frameworks */,
+				51CF488B1FA6D22C00179AF5 /* MediaPlayer.framework in Frameworks */,
+				51CF48891FA6D21E00179AF5 /* libz.tbd in Frameworks */,
+				51CF48871FA6D21500179AF5 /* libbz2.tbd in Frameworks */,
+				51CF48851FA6D20800179AF5 /* CoreVideo.framework in Frameworks */,
+				51CF48831FA6D1FA00179AF5 /* CoreMedia.framework in Frameworks */,
+				51CF48811FA6D1EE00179AF5 /* CoreGraphics.framework in Frameworks */,
+				51CF487F1FA6D1DF00179AF5 /* AVFoundation.framework in Frameworks */,
+				51CF487D1FA6D1D600179AF5 /* AudioToolbox.framework in Frameworks */,
 				FDD962F4AC4C6410A46A2226 /* libPods-YKZB_iOS.a in Frameworks */,
+				51CF487B1FA6D13D00179AF5 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,15 +467,10 @@
 				5149F90A1FA4359400AA5FC6 /* JHMainViewController.h */,
 				5149F90B1FA4359400AA5FC6 /* JHMainViewController.m */,
 				5149F90C1FA4359400AA5FC6 /* JHMainViewController.xib */,
-				5149F91C1FA462D700AA5FC6 /* JHFocuseViewController.h */,
-				5149F91D1FA462D700AA5FC6 /* JHFocuseViewController.m */,
-				5149F91E1FA462D700AA5FC6 /* JHFocuseViewController.xib */,
-				5149F9211FA4630F00AA5FC6 /* JHHotViewController.h */,
-				5149F9221FA4630F00AA5FC6 /* JHHotViewController.m */,
-				5149F9231FA4630F00AA5FC6 /* JHHotViewController.xib */,
-				5149F9261FA4633500AA5FC6 /* JHNearViewController.h */,
-				5149F9271FA4633500AA5FC6 /* JHNearViewController.m */,
-				5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */,
+				51CF489C1FA6D92800179AF5 /* 关注 */,
+				51CF489B1FA6D91700179AF5 /* 热门直播 */,
+				51CF489A1FA6D90900179AF5 /* 附近 */,
+				51CF48991FA6D8F900179AF5 /* 播放 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -467,9 +507,62 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		51CF48991FA6D8F900179AF5 /* 播放 */ = {
+			isa = PBXGroup;
+			children = (
+				51CF48961FA6D8F600179AF5 /* JHPlayerViewController.h */,
+				51CF48971FA6D8F600179AF5 /* JHPlayerViewController.m */,
+			);
+			name = "播放";
+			sourceTree = "<group>";
+		};
+		51CF489A1FA6D90900179AF5 /* 附近 */ = {
+			isa = PBXGroup;
+			children = (
+				5149F9261FA4633500AA5FC6 /* JHNearViewController.h */,
+				5149F9271FA4633500AA5FC6 /* JHNearViewController.m */,
+				5149F9281FA4633500AA5FC6 /* JHNearViewController.xib */,
+			);
+			name = "附近";
+			sourceTree = "<group>";
+		};
+		51CF489B1FA6D91700179AF5 /* 热门直播 */ = {
+			isa = PBXGroup;
+			children = (
+				5149F9211FA4630F00AA5FC6 /* JHHotViewController.h */,
+				5149F9221FA4630F00AA5FC6 /* JHHotViewController.m */,
+				5149F9231FA4630F00AA5FC6 /* JHHotViewController.xib */,
+			);
+			name = "热门直播";
+			sourceTree = "<group>";
+		};
+		51CF489C1FA6D92800179AF5 /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				5149F91C1FA462D700AA5FC6 /* JHFocuseViewController.h */,
+				5149F91D1FA462D700AA5FC6 /* JHFocuseViewController.m */,
+				5149F91E1FA462D700AA5FC6 /* JHFocuseViewController.xib */,
+			);
+			name = "关注";
+			sourceTree = "<group>";
+		};
 		88A7EE49287FD72E5F854473 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51CF48941FA6D27700179AF5 /* VideoToolbox.framework */,
+				51CF48921FA6D26B00179AF5 /* UIKit.framework */,
+				51CF48901FA6D25B00179AF5 /* QuartzCore.framework */,
+				51CF488E1FA6D24D00179AF5 /* OpenGLES.framework */,
+				51CF488C1FA6D23C00179AF5 /* MobileCoreServices.framework */,
+				51CF488A1FA6D22C00179AF5 /* MediaPlayer.framework */,
+				51CF48881FA6D21E00179AF5 /* libz.tbd */,
+				51CF48861FA6D21500179AF5 /* libbz2.tbd */,
+				51CF48841FA6D20800179AF5 /* CoreVideo.framework */,
+				51CF48821FA6D1FA00179AF5 /* CoreMedia.framework */,
+				51CF48801FA6D1EE00179AF5 /* CoreGraphics.framework */,
+				51CF487E1FA6D1DF00179AF5 /* AVFoundation.framework */,
+				51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */,
+				51CF487A1FA6D13D00179AF5 /* IJKMediaFramework.framework */,
 				5C01E2CC51AB2AB2E4B6500C /* libPods-YKZB_iOS.a */,
 				5B0930B595E04A94A37894EE /* libPods-YKZB_iOSTests.a */,
 			);
@@ -715,6 +808,7 @@
 				5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */,
 				51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */,
 				5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */,
+				51CF48981FA6D8F600179AF5 /* JHPlayerViewController.m in Sources */,
 				5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */,
 				5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */,
 				5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */,
@@ -855,6 +949,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YKZB_iOS/YKZB.pch";
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -869,6 +967,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YKZB_iOS/YKZB.pch";
 				INFOPLIST_FILE = YKZB_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
