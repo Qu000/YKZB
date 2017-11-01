@@ -45,7 +45,9 @@
 
 
 -(void)closeAction:(UIButton *)button{
+    
     [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -69,7 +71,8 @@
     
     [super viewWillDisappear:animated];
     
-//    self.navigationController.navigationBarHidden = NO;
+    //返回时，bar才会依旧存在
+    self.navigationController.navigationBarHidden = NO;
     
     //关闭直播
     [self.player shutdown];
@@ -280,6 +283,7 @@
     [[NSNotificationCenter defaultCenter]removeObserver:self name:IJKMPMediaPlaybackIsPreparedToPlayDidChangeNotification object:_player];
     [[NSNotificationCenter defaultCenter]removeObserver:self name:IJKMPMoviePlayerPlaybackStateDidChangeNotification object:_player];
 }
+
 
 
 @end

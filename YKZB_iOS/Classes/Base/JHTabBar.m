@@ -124,7 +124,7 @@
     }
     
     [_cameraButton sizeToFit];
-    self.cameraButton.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 50);
+    self.cameraButton.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 40);
     
 }
 

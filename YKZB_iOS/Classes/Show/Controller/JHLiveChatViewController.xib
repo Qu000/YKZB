@@ -67,18 +67,33 @@
                         <constraint firstAttribute="width" constant="30" id="Z8A-5v-R28"/>
                         <constraint firstAttribute="height" constant="10" id="sVI-js-NUl"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9df-JN-9o5">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9df-JN-9o5">
                     <rect key="frame" x="0.0" y="72" width="138" height="22"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="138" id="1TP-lJ-csK"/>
                         <constraint firstAttribute="height" constant="22" id="4d8-i6-pyL"/>
                     </constraints>
-                    <state key="normal" title="映票" backgroundImage="mg_room_映票_底">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="mg_room_映票_底">
+                        <attributedString key="attributedTitle">
+                            <fragment content="映币">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=":  12352">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <font key="NSFont" metaFont="system"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
                     </state>
                 </button>
             </subviews>

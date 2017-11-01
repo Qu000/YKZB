@@ -15,7 +15,14 @@
  * success
  * failed
 */
-+ (void)ececuteGetHotLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
++ (void)executeGetHotLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
 
+
+/**
+ * 获取附近直播信息
+ * success
+ * failed
+ */
++ (void)executeGetNearLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
 
 @end

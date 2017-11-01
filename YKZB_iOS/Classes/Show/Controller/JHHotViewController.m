@@ -42,8 +42,8 @@ static NSString *identifier = @"JHLiveCell";
     
 }
 - (void)loadData{
-    [JHLiveHandler ececuteGetHotLiveTaskWithSuccess:^(id obj) {
-        NSLog(@"%@",obj);
+    [JHLiveHandler executeGetHotLiveTaskWithSuccess:^(id obj) {
+//        NSLog(@"%@",obj);
         [self.dataList addObjectsFromArray:obj];
         [self.tableView reloadData];
         

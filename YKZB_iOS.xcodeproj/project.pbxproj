@@ -41,6 +41,13 @@
 		51BE0D311FA82377007E0E59 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE0D301FA82377007E0E59 /* IJKMediaFramework.framework */; };
 		51BE0D3C1FA85B63007E0E59 /* JHLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE0D3A1FA85B63007E0E59 /* JHLiveChatViewController.m */; };
 		51BE0D3D1FA85B63007E0E59 /* JHLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */; };
+		51BE0D401FA87825007E0E59 /* JHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE0D3F1FA87825007E0E59 /* JHLocationManager.m */; };
+		51BE0D421FA878FC007E0E59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE0D411FA878FC007E0E59 /* CoreLocation.framework */; };
+		51C5E5D31FA9C45E0012CCAC /* JHFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5D21FA9C45E0012CCAC /* JHFlow.m */; };
+		51C5E5D61FA9C4710012CCAC /* JHInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5D51FA9C4710012CCAC /* JHInfo.m */; };
+		51C5E5D91FA9C4C90012CCAC /* JHActInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5D81FA9C4C90012CCAC /* JHActInfo.m */; };
+		51C5E5DC1FA9C5090012CCAC /* JHExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5DB1FA9C5090012CCAC /* JHExtra.m */; };
+		51C5E5DF1FA9C5790012CCAC /* JHFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */; };
 		51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */; };
 		51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */; };
 		51CF487D1FA6D1D600179AF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */; };
@@ -134,6 +141,19 @@
 		51BE0D391FA85B63007E0E59 /* JHLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveChatViewController.h; sourceTree = "<group>"; };
 		51BE0D3A1FA85B63007E0E59 /* JHLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveChatViewController.m; sourceTree = "<group>"; };
 		51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveChatViewController.xib; sourceTree = "<group>"; };
+		51BE0D3E1FA87825007E0E59 /* JHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLocationManager.h; sourceTree = "<group>"; };
+		51BE0D3F1FA87825007E0E59 /* JHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLocationManager.m; sourceTree = "<group>"; };
+		51BE0D411FA878FC007E0E59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		51C5E5D11FA9C45E0012CCAC /* JHFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFlow.h; sourceTree = "<group>"; };
+		51C5E5D21FA9C45E0012CCAC /* JHFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFlow.m; sourceTree = "<group>"; };
+		51C5E5D41FA9C4710012CCAC /* JHInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInfo.h; sourceTree = "<group>"; };
+		51C5E5D51FA9C4710012CCAC /* JHInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInfo.m; sourceTree = "<group>"; };
+		51C5E5D71FA9C4C90012CCAC /* JHActInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActInfo.h; sourceTree = "<group>"; };
+		51C5E5D81FA9C4C90012CCAC /* JHActInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHActInfo.m; sourceTree = "<group>"; };
+		51C5E5DA1FA9C5090012CCAC /* JHExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHExtra.h; sourceTree = "<group>"; };
+		51C5E5DB1FA9C5090012CCAC /* JHExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHExtra.m; sourceTree = "<group>"; };
+		51C5E5DD1FA9C5790012CCAC /* JHFCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFCreator.h; sourceTree = "<group>"; };
+		51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFCreator.m; sourceTree = "<group>"; };
 		51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveCell.h; sourceTree = "<group>"; };
 		51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveCell.m; sourceTree = "<group>"; };
 		51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveCell.xib; sourceTree = "<group>"; };
@@ -164,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BE0D421FA878FC007E0E59 /* CoreLocation.framework in Frameworks */,
 				51CF48951FA6D27700179AF5 /* VideoToolbox.framework in Frameworks */,
 				51CF48931FA6D26B00179AF5 /* UIKit.framework in Frameworks */,
 				51CF48911FA6D25B00179AF5 /* QuartzCore.framework in Frameworks */,
@@ -299,6 +320,8 @@
 		517A9DEE1FA4140300906662 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				51BE0D3E1FA87825007E0E59 /* JHLocationManager.h */,
+				51BE0D3F1FA87825007E0E59 /* JHLocationManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -493,10 +516,8 @@
 		517A9E041FA4140300906662 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				51B597981FA578610089D6B1 /* JHLive.h */,
-				51B597991FA578610089D6B1 /* JHLive.m */,
-				51B5979B1FA578B20089D6B1 /* JHCreator.h */,
-				51B5979C1FA578B20089D6B1 /* JHCreator.m */,
+				51C5E5CD1FA9BF5A0012CCAC /* 附近的人 */,
+				51C5E5CC1FA9BF4B0012CCAC /* 热门直播 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -521,6 +542,34 @@
 				51BE0D3B1FA85B63007E0E59 /* JHLiveChatViewController.xib */,
 			);
 			name = "直播聊天";
+			sourceTree = "<group>";
+		};
+		51C5E5CC1FA9BF4B0012CCAC /* 热门直播 */ = {
+			isa = PBXGroup;
+			children = (
+				51B597981FA578610089D6B1 /* JHLive.h */,
+				51B597991FA578610089D6B1 /* JHLive.m */,
+				51B5979B1FA578B20089D6B1 /* JHCreator.h */,
+				51B5979C1FA578B20089D6B1 /* JHCreator.m */,
+			);
+			name = "热门直播";
+			sourceTree = "<group>";
+		};
+		51C5E5CD1FA9BF5A0012CCAC /* 附近的人 */ = {
+			isa = PBXGroup;
+			children = (
+				51C5E5D11FA9C45E0012CCAC /* JHFlow.h */,
+				51C5E5D21FA9C45E0012CCAC /* JHFlow.m */,
+				51C5E5D41FA9C4710012CCAC /* JHInfo.h */,
+				51C5E5D51FA9C4710012CCAC /* JHInfo.m */,
+				51C5E5D71FA9C4C90012CCAC /* JHActInfo.h */,
+				51C5E5D81FA9C4C90012CCAC /* JHActInfo.m */,
+				51C5E5DA1FA9C5090012CCAC /* JHExtra.h */,
+				51C5E5DB1FA9C5090012CCAC /* JHExtra.m */,
+				51C5E5DD1FA9C5790012CCAC /* JHFCreator.h */,
+				51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */,
+			);
+			name = "附近的人";
 			sourceTree = "<group>";
 		};
 		51CF48991FA6D8F900179AF5 /* 播放 */ = {
@@ -565,6 +614,7 @@
 		88A7EE49287FD72E5F854473 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51BE0D411FA878FC007E0E59 /* CoreLocation.framework */,
 				51BE0D301FA82377007E0E59 /* IJKMediaFramework.framework */,
 				51CF48941FA6D27700179AF5 /* VideoToolbox.framework */,
 				51CF48921FA6D26B00179AF5 /* UIKit.framework */,
@@ -807,18 +857,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5149F91A1FA458F800AA5FC6 /* JHLaunchViewController.m in Sources */,
+				51C5E5DF1FA9C5790012CCAC /* JHFCreator.m in Sources */,
 				5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */,
 				51B597A01FA57BA60089D6B1 /* MJExtensionConfig.m in Sources */,
 				51B597951FA56E8F0089D6B1 /* JHLiveHandler.m in Sources */,
 				5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */,
 				51B5979D1FA578B20089D6B1 /* JHCreator.m in Sources */,
+				51C5E5DC1FA9C5090012CCAC /* JHExtra.m in Sources */,
 				5149F91F1FA462D700AA5FC6 /* JHFocuseViewController.m in Sources */,
 				51B597971FA573A10089D6B1 /* Foundation+Log.m in Sources */,
 				517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */,
 				51B597921FA56D600089D6B1 /* JHBaseHandler.m in Sources */,
 				5149F9361FA4829E00AA5FC6 /* UIImageView+SDWebImage.m in Sources */,
 				5149F9241FA4630F00AA5FC6 /* JHHotViewController.m in Sources */,
+				51C5E5D91FA9C4C90012CCAC /* JHActInfo.m in Sources */,
 				5149F90D1FA4359400AA5FC6 /* JHMainViewController.m in Sources */,
+				51C5E5D31FA9C45E0012CCAC /* JHFlow.m in Sources */,
+				51C5E5D61FA9C4710012CCAC /* JHInfo.m in Sources */,
 				517A9DC71FA4116000906662 /* main.m in Sources */,
 				51B5979A1FA578610089D6B1 /* JHLive.m in Sources */,
 				5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */,
@@ -829,6 +884,7 @@
 				5149F9121FA435B200AA5FC6 /* JHProfileViewController.m in Sources */,
 				5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */,
 				51BE0D3C1FA85B63007E0E59 /* JHLiveChatViewController.m in Sources */,
+				51BE0D401FA87825007E0E59 /* JHLocationManager.m in Sources */,
 				5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
