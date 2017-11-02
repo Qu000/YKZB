@@ -31,4 +31,5 @@
 @property (nonatomic, assign) NSInteger verified;
 @property (nonatomic, strong) NSString * verifiedReason;
 
+
 @end

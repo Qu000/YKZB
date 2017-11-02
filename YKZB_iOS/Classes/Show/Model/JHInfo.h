@@ -20,12 +20,12 @@
 @property (nonatomic, assign) NSInteger group;
 @property (nonatomic, strong) NSString * idField;
 @property (nonatomic, strong) NSString * image;
+@property (nonatomic, strong) NSString * name;
 @property (nonatomic, assign) NSInteger landscape;
 @property (nonatomic, strong) NSArray * like;
 @property (nonatomic, assign) NSInteger link;
 @property (nonatomic, strong) NSString * liveType;
 @property (nonatomic, assign) NSInteger multi;
-@property (nonatomic, strong) NSString * name;
 @property (nonatomic, assign) NSInteger optimal;
 @property (nonatomic, assign) NSInteger pubStat;
 @property (nonatomic, assign) NSInteger roomId;
@@ -37,4 +37,11 @@
 @property (nonatomic, strong) NSString * token;
 @property (nonatomic, assign) NSInteger version;
 
+
+@property (nonatomic, strong) NSString * distance;
+
+/**
+ 调用get方法时isShow，调用set方法时Show
+ */
+@property (nonatomic, getter=isShow) BOOL show;
 @end

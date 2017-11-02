@@ -48,6 +48,8 @@
 		51C5E5D91FA9C4C90012CCAC /* JHActInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5D81FA9C4C90012CCAC /* JHActInfo.m */; };
 		51C5E5DC1FA9C5090012CCAC /* JHExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5DB1FA9C5090012CCAC /* JHExtra.m */; };
 		51C5E5DF1FA9C5790012CCAC /* JHFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */; };
+		51C5E5E51FA9FC4D0012CCAC /* JHNearLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E5E31FA9FC4D0012CCAC /* JHNearLiveCell.m */; };
+		51C5E5E61FA9FC4D0012CCAC /* JHNearLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C5E5E41FA9FC4D0012CCAC /* JHNearLiveCell.xib */; };
 		51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */; };
 		51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */; };
 		51CF487D1FA6D1D600179AF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CF487C1FA6D1D600179AF5 /* AudioToolbox.framework */; };
@@ -154,6 +156,9 @@
 		51C5E5DB1FA9C5090012CCAC /* JHExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHExtra.m; sourceTree = "<group>"; };
 		51C5E5DD1FA9C5790012CCAC /* JHFCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFCreator.h; sourceTree = "<group>"; };
 		51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFCreator.m; sourceTree = "<group>"; };
+		51C5E5E21FA9FC4D0012CCAC /* JHNearLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNearLiveCell.h; sourceTree = "<group>"; };
+		51C5E5E31FA9FC4D0012CCAC /* JHNearLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNearLiveCell.m; sourceTree = "<group>"; };
+		51C5E5E41FA9FC4D0012CCAC /* JHNearLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHNearLiveCell.xib; sourceTree = "<group>"; };
 		51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveCell.h; sourceTree = "<group>"; };
 		51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLiveCell.m; sourceTree = "<group>"; };
 		51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLiveCell.xib; sourceTree = "<group>"; };
@@ -527,9 +532,8 @@
 			children = (
 				5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */,
 				5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */,
-				51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */,
-				51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */,
-				51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */,
+				51C5E5E01FA9FBFE0012CCAC /* 热门直播 */,
+				51C5E5E11FA9FC110012CCAC /* 附近直播 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -570,6 +574,26 @@
 				51C5E5DE1FA9C5790012CCAC /* JHFCreator.m */,
 			);
 			name = "附近的人";
+			sourceTree = "<group>";
+		};
+		51C5E5E01FA9FBFE0012CCAC /* 热门直播 */ = {
+			isa = PBXGroup;
+			children = (
+				51CF48751FA5AD3B00179AF5 /* JHLiveCell.h */,
+				51CF48761FA5AD3B00179AF5 /* JHLiveCell.m */,
+				51CF48771FA5AD3B00179AF5 /* JHLiveCell.xib */,
+			);
+			name = "热门直播";
+			sourceTree = "<group>";
+		};
+		51C5E5E11FA9FC110012CCAC /* 附近直播 */ = {
+			isa = PBXGroup;
+			children = (
+				51C5E5E21FA9FC4D0012CCAC /* JHNearLiveCell.h */,
+				51C5E5E31FA9FC4D0012CCAC /* JHNearLiveCell.m */,
+				51C5E5E41FA9FC4D0012CCAC /* JHNearLiveCell.xib */,
+			);
+			name = "附近直播";
 			sourceTree = "<group>";
 		};
 		51CF48991FA6D8F900179AF5 /* 播放 */ = {
@@ -738,6 +762,7 @@
 				5149F92A1FA4633500AA5FC6 /* JHNearViewController.xib in Resources */,
 				5149F9131FA435B200AA5FC6 /* JHProfileViewController.xib in Resources */,
 				5149F9201FA462D700AA5FC6 /* JHFocuseViewController.xib in Resources */,
+				51C5E5E61FA9FC4D0012CCAC /* JHNearLiveCell.xib in Resources */,
 				517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */,
 				517A9DD21FA4116000906662 /* Assets.xcassets in Resources */,
 				5149F9251FA4630F00AA5FC6 /* JHHotViewController.xib in Resources */,
@@ -876,6 +901,7 @@
 				51C5E5D61FA9C4710012CCAC /* JHInfo.m in Sources */,
 				517A9DC71FA4116000906662 /* main.m in Sources */,
 				51B5979A1FA578610089D6B1 /* JHLive.m in Sources */,
+				51C5E5E51FA9FC4D0012CCAC /* JHNearLiveCell.m in Sources */,
 				5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */,
 				5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */,
 				51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */,
