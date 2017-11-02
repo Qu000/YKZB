@@ -18,20 +18,38 @@
 
 @implementation JHLiveChatViewController
 
--(void)setLive:(JHLive *)live{
-    _live = live;
-    [self.iconBtn sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait]] forState:UIControlStateNormal];
+//-(void)setLive:(JHLive *)live{
+//    _live = live;
+////    [self.iconBtn sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait]] forState:UIControlStateNormal];
+//
+//}
+//-(void)setFlow:(JHFlow *)flow{
+//    _flow = flow;
+//}
 
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = JHRGBA(255, 255, 255, 0);
-    self.iconBtn.layer.cornerRadius = 15;
-    self.iconBtn.layer.masksToBounds = YES;
+    
+    [self judgeIconFrom];
+    
     [self onlineChange];
     
 }
+
+-(void)judgeIconFrom{
+    self.iconBtn.layer.cornerRadius = 15;
+    self.iconBtn.layer.masksToBounds = YES;
+    
+    if (self.judgeIdx == 0) {
+        [self.iconBtn sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,self.live.creator.portrait]] forState:UIControlStateNormal];
+    }
+    else{
+        [self.iconBtn sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,self.flow.info.creator.portrait]] forState:UIControlStateNormal];
+    }
+}
+
 -(void)onlineChange{
     [NSTimer scheduledTimerWithTimeInterval:2 block:^(NSTimer * _Nonnull timer) {
         self.onlineLab.text = [NSString stringWithFormat:@"%d",arc4random_uniform(10000)];

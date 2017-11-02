@@ -14,6 +14,7 @@
 #import "MJExtension.h"
 #import "UIImageView+SDWebImage.h"
 #import "UIButton+WebCache.h"
+#import "SDWebImageManager.h"
 
 #import "JHMacros.h"
 #import "JHAPIConfig.h"

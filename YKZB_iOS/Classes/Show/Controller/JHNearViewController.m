@@ -84,11 +84,12 @@ static NSString * identifier = @"JHNearLiveCell";
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
 
+    [collectionView deselectItemAtIndexPath:indexPath animated:YES];
+    
     JHFlow * flow = self.dataList[indexPath.row];
     JHPlayerViewController * playerVc = [[JHPlayerViewController alloc]init];
     playerVc.flow = flow;
     playerVc.judgeIdx = 1;
-    
     [self.navigationController pushViewController:playerVc animated:YES];
     
 

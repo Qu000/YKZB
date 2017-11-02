@@ -106,4 +106,16 @@
     }];
 }
 
+
++ (void)executeGetAdvertiseTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed{
+    //由于映客的广告页接口挂了，所以这里就不写了，直接放一张图片到广告页
+    [HttpTool getWithPath:API_Advertise params:nil success:^(id json) {
+        
+        
+    } failure:^(NSError *error) {
+        
+        
+    }];
+}
+
 @end

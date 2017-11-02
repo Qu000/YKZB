@@ -32,6 +32,9 @@
 		517A9DD21FA4116000906662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD11FA4116000906662 /* Assets.xcassets */; };
 		517A9DD51FA4116000906662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DD31FA4116000906662 /* LaunchScreen.storyboard */; };
 		517A9DE01FA4116000906662 /* YKZB_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DDF1FA4116000906662 /* YKZB_iOSTests.m */; };
+		51AC6C1B1FAAF4460084A2E9 /* JHAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC6C1A1FAAF4460084A2E9 /* JHAdvertiseView.m */; };
+		51AC6C1D1FAAF4740084A2E9 /* JHAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51AC6C1C1FAAF4740084A2E9 /* JHAdvertiseView.xib */; };
+		51AC6C201FAAFFE00084A2E9 /* JHCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC6C1F1FAAFFE00084A2E9 /* JHCacheHelper.m */; };
 		51B597921FA56D600089D6B1 /* JHBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597911FA56D600089D6B1 /* JHBaseHandler.m */; };
 		51B597951FA56E8F0089D6B1 /* JHLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597941FA56E8F0089D6B1 /* JHLiveHandler.m */; };
 		51B597971FA573A10089D6B1 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B597961FA573A10089D6B1 /* Foundation+Log.m */; };
@@ -128,6 +131,11 @@
 		517A9DE11FA4116000906662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517A9E071FA41AB300906662 /* YKZB.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKZB.pch; sourceTree = "<group>"; };
 		517A9E0B1FA424AA00906662 /* JHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMacros.h; sourceTree = "<group>"; };
+		51AC6C191FAAF4460084A2E9 /* JHAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAdvertiseView.h; sourceTree = "<group>"; };
+		51AC6C1A1FAAF4460084A2E9 /* JHAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAdvertiseView.m; sourceTree = "<group>"; };
+		51AC6C1C1FAAF4740084A2E9 /* JHAdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAdvertiseView.xib; sourceTree = "<group>"; };
+		51AC6C1E1FAAFFE00084A2E9 /* JHCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCacheHelper.h; sourceTree = "<group>"; };
+		51AC6C1F1FAAFFE00084A2E9 /* JHCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCacheHelper.m; sourceTree = "<group>"; };
 		51B597901FA56D600089D6B1 /* JHBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseHandler.h; sourceTree = "<group>"; };
 		51B597911FA56D600089D6B1 /* JHBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseHandler.m; sourceTree = "<group>"; };
 		51B597931FA56E8F0089D6B1 /* JHLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLiveHandler.h; sourceTree = "<group>"; };
@@ -327,6 +335,8 @@
 			children = (
 				51BE0D3E1FA87825007E0E59 /* JHLocationManager.h */,
 				51BE0D3F1FA87825007E0E59 /* JHLocationManager.m */,
+				51AC6C1E1FAAFFE00084A2E9 /* JHCacheHelper.h */,
+				51AC6C1F1FAAFFE00084A2E9 /* JHCacheHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -532,10 +542,21 @@
 			children = (
 				5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */,
 				5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */,
+				51AC6C181FAAF4040084A2E9 /* 广告页 */,
 				51C5E5E01FA9FBFE0012CCAC /* 热门直播 */,
 				51C5E5E11FA9FC110012CCAC /* 附近直播 */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		51AC6C181FAAF4040084A2E9 /* 广告页 */ = {
+			isa = PBXGroup;
+			children = (
+				51AC6C191FAAF4460084A2E9 /* JHAdvertiseView.h */,
+				51AC6C1A1FAAF4460084A2E9 /* JHAdvertiseView.m */,
+				51AC6C1C1FAAF4740084A2E9 /* JHAdvertiseView.xib */,
+			);
+			name = "广告页";
 			sourceTree = "<group>";
 		};
 		51BE0D381FA857FE007E0E59 /* 直播聊天 */ = {
@@ -769,6 +790,7 @@
 				51BE0D3D1FA85B63007E0E59 /* JHLiveChatViewController.xib in Resources */,
 				5149F91B1FA458F800AA5FC6 /* JHLaunchViewController.xib in Resources */,
 				517A9DD01FA4116000906662 /* Main.storyboard in Resources */,
+				51AC6C1D1FAAF4740084A2E9 /* JHAdvertiseView.xib in Resources */,
 				5149F90E1FA4359400AA5FC6 /* JHMainViewController.xib in Resources */,
 				51CF48791FA5AD3B00179AF5 /* JHLiveCell.xib in Resources */,
 			);
@@ -881,6 +903,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AC6C1B1FAAF4460084A2E9 /* JHAdvertiseView.m in Sources */,
 				5149F91A1FA458F800AA5FC6 /* JHLaunchViewController.m in Sources */,
 				51C5E5DF1FA9C5790012CCAC /* JHFCreator.m in Sources */,
 				5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */,
@@ -902,6 +925,7 @@
 				517A9DC71FA4116000906662 /* main.m in Sources */,
 				51B5979A1FA578610089D6B1 /* JHLive.m in Sources */,
 				51C5E5E51FA9FC4D0012CCAC /* JHNearLiveCell.m in Sources */,
+				51AC6C201FAAFFE00084A2E9 /* JHCacheHelper.m in Sources */,
 				5149F9291FA4633500AA5FC6 /* JHNearViewController.m in Sources */,
 				5149F9161FA4369F00AA5FC6 /* JHBaseNavViewController.m in Sources */,
 				51CF48781FA5AD3B00179AF5 /* JHLiveCell.m in Sources */,

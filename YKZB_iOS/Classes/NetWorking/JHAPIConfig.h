@@ -19,7 +19,7 @@
 //信息类服务器地址http://service.ingkee.com
 #define SERVER_HOST @""
 
-//图片服务器地址http://img.meelive.cn/   http://img2.inke.cn/
+//图片服务器地址http://img.meelive.cn/   http://img2.inke.cn/  可用的
 #define IMAGE_HOST @""
 
 //首页数据（热门直播）api/live/gettop
@@ -27,6 +27,14 @@
 
 //广告地址
 #define API_Advertise @"advertise/get"
+
+/**
+ 广告图片
+ */
+#define API_AdvertisePic @"http://img2.inke.cn/NTY3MTMxNDczMDczNjc3.jpg"
+//@"http://img2.inke.cn/NTY3MTMxNDczMDczNjc3.jpg"广告图片
+
+//
 
 //热门话题
 #define API_TopicIndex @"api/live/topicindex"
@@ -42,5 +50,4 @@
 #define Live_Dahuan @"rtmp://live.hkstv.hk.lxdns.com:1935/live/dahuan"
 
 @end
-
 

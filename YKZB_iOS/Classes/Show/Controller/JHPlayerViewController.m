@@ -96,6 +96,16 @@
 
 }
 -(void)addChildVC{
+    //传递数据
+    
+    if (self.judgeIdx == 0) {
+        self.liveChatVc.live = self.live;
+        self.liveChatVc.judgeIdx = self.judgeIdx;
+    }
+    else{
+        self.liveChatVc.flow = self.flow;
+        self.liveChatVc.judgeIdx = self.judgeIdx;
+    }
     
     [self addChildViewController:self.liveChatVc];
     
@@ -105,14 +115,8 @@
         make.edges.equalTo(self.view);
     }];
     
-    //传递数据
-//    if (self.judgeIdx == 0) {
-//       self.liveChatVc.live = self.live;
-//    }
-//    else{
-//    self.liveChatVc
-//    }
-    self.liveChatVc.live = self.live;
+   
+    
 }
 
 -(void)setupUI{

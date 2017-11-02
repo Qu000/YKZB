@@ -25,4 +25,12 @@
  */
 + (void)executeGetNearLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
 
+
+/**
+ * 获取广告页信息
+ * success
+ * failed
+ */
++ (void)executeGetAdvertiseTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
+
 @end

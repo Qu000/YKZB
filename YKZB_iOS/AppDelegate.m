@@ -10,6 +10,8 @@
 #import "JHTabBarViewController.h"
 
 #import "JHLocationManager.h"
+
+#import "JHAdvertiseView.h"
 @interface AppDelegate ()
 
 @end
@@ -26,8 +28,17 @@
     
     [self.window makeKeyAndVisible];
     
+    [self setAdvertisePage];
+    
     [self getUserLocation];
+    
     return YES;
+}
+
+- (void)setAdvertisePage{
+
+    JHAdvertiseView * page = [JHAdvertiseView loadAdvertiseView];
+    [self.window addSubview:page];
 }
 
 - (void)getUserLocation{

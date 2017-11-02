@@ -8,8 +8,11 @@
 
 #import "JHBaseViewController.h"
 #import "JHLive.h"
+#import "JHFlow.h"
 
 @interface JHLiveChatViewController : JHBaseViewController
 
 @property (nonatomic, strong) JHLive * live;
+@property (nonatomic, strong) JHFlow * flow;
+@property (nonatomic, assign) NSUInteger judgeIdx;
 @end
