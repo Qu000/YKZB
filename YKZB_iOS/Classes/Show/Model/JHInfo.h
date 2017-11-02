@@ -18,9 +18,8 @@
 @property (nonatomic, strong) JHFCreator * creator;
 @property (nonatomic, strong) JHExtra * extra;
 @property (nonatomic, assign) NSInteger group;
-@property (nonatomic, strong) NSString * idField;
+@property (nonatomic, strong) NSString * ID;
 @property (nonatomic, strong) NSString * image;
-@property (nonatomic, strong) NSString * name;
 @property (nonatomic, assign) NSInteger landscape;
 @property (nonatomic, strong) NSArray * like;
 @property (nonatomic, assign) NSInteger link;

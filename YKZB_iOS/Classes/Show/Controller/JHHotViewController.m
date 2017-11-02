@@ -76,6 +76,7 @@ static NSString *identifier = @"JHLiveCell";
     
     JHPlayerViewController * playerVc = [[JHPlayerViewController alloc]init];
     playerVc.live = live;//传值
+    playerVc.judgeIdx = 0;
     [self.navigationController pushViewController:playerVc animated:YES];
 }
 

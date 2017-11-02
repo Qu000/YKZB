@@ -9,8 +9,13 @@
 #import "JHBaseViewController.h"
 #import "JHLive.h"
 
+#import "JHFlow.h"
 @interface JHPlayerViewController : JHBaseViewController
 
+@property (nonatomic, assign) NSUInteger judgeIdx;
+
 @property (nonatomic, strong) JHLive * live;
+
+@property (nonatomic, strong) JHFlow * flow;
 
 @end

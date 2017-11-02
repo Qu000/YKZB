@@ -50,6 +50,7 @@
 //    JHLocationManager * manager = [JHLocationManager sharedManager];
 //    @"longitude":manager.lon,
 //    @"latitude":manager.lat,
+
     NSDictionary * param = @{@"gender":@"1",
                              @"gps_info":@"116.449411%2C39.904484",
                          @"loc_info":@"CN%2C%E5%8C%97%E4%BA%AC%E5%B8%82%2C%E5%8C%97%E4%BA%AC%E5%B8%82",
@@ -81,7 +82,7 @@
                              };
     
     [HttpTool getWithPath:API_NearLocation params:param success:^(id json) {
-
+//        success(json);
         //因为这里的数据结构和热门直播很相似，所以就用了live模型
         if ([json[@"dm_error"] integerValue]) {
             

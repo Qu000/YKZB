@@ -10,6 +10,7 @@
 #import "JHLiveHandler.h"
 
 #import "JHNearLiveCell.h"
+#import "JHPlayerViewController.h"
 
 static NSString * identifier = @"JHNearLiveCell";
 
@@ -46,7 +47,7 @@ static NSString * identifier = @"JHNearLiveCell";
 -(void)loadData{
 
     [JHLiveHandler executeGetNearLiveTaskWithSuccess:^(id obj) {
-        
+        NSLog(@"%@",obj);
         self.dataList = obj;
         
         [self.collectionView reloadData];
@@ -83,6 +84,13 @@ static NSString * identifier = @"JHNearLiveCell";
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
 
+    JHFlow * flow = self.dataList[indexPath.row];
+    JHPlayerViewController * playerVc = [[JHPlayerViewController alloc]init];
+    playerVc.flow = flow;
+    playerVc.judgeIdx = 1;
+    
+    [self.navigationController pushViewController:playerVc animated:YES];
+    
 
 }
 

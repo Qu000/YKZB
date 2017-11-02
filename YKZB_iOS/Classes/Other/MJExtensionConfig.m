@@ -11,6 +11,13 @@
 #import "JHCreator.h"
 #import "JHLive.h"
 
+#import "JHFlow.h"
+#import "JHInfo.h"
+#import "JHActInfo.h"
+#import "JHExtra.h"
+#import "JHFCreator.h"
+
+
 @implementation MJExtensionConfig
 
 + (void)load {
@@ -35,6 +42,20 @@
     [JHCreator mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
         return [propertyName mj_underlineFromCamel];
     }];
+    
+    //下滑线
+    [JHFlow mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
+        return [propertyName mj_underlineFromCamel];
+    }];
+    [JHInfo mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
+        return [propertyName mj_underlineFromCamel];
+    }];
+    
+    [JHFCreator mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
+        return [propertyName mj_underlineFromCamel];
+    }];
+    
+    
 }
 
 @end

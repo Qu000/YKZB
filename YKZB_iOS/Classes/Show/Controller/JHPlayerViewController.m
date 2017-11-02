@@ -105,15 +105,28 @@
         make.edges.equalTo(self.view);
     }];
     
-    
     //传递数据
+//    if (self.judgeIdx == 0) {
+//       self.liveChatVc.live = self.live;
+//    }
+//    else{
+//    self.liveChatVc
+//    }
     self.liveChatVc.live = self.live;
 }
 
 -(void)setupUI{
+    
+    
     self.view.backgroundColor = [UIColor blackColor];
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:self.view.bounds];
-    [imageView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,self.live.creator.portrait] placeholder:@"default_room"];
+    if (self.judgeIdx == 0) {
+        [imageView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,self.live.creator.portrait] placeholder:@"default_room"];
+    }
+    else{
+    [imageView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,self.flow.info.creator.portrait] placeholder:@"default_room"];
+    }
+    
     [self.view addSubview:imageView];
     self.blurImageView = imageView;
     
@@ -132,8 +145,15 @@
 -(void)setupPlayer{
     IJKFFOptions * options = [IJKFFOptions optionsByDefault];
     
-    IJKFFMoviePlayerController * player = [[IJKFFMoviePlayerController alloc] initWithContentURLString:self.live.streamAddr withOptions:options];
-    self.player = player;
+    if (self.judgeIdx == 0) {
+        IJKFFMoviePlayerController * player = [[IJKFFMoviePlayerController alloc] initWithContentURLString:self.live.streamAddr withOptions:options];
+        self.player = player;
+    }
+    else{
+        IJKFFMoviePlayerController * player = [[IJKFFMoviePlayerController alloc] initWithContentURLString:self.flow.info.streamAddr withOptions:options];
+        self.player = player;
+    }
+    
     self.player.view.frame = self.view.bounds;
     self.player.shouldAutoplay = YES;
     [self.view addSubview:self.player.view];
