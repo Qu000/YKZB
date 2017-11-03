@@ -16,4 +16,5 @@ pod 'Masonry', '~> 1.1.0'
 pod 'YYKit', '~> 1.0.9'
 pod 'SDWebImage', '~> 3.8.1’
 pod ‘MJExtension’, ‘~> 3.0.10’
+pod 'LFLiveKit'
 end

@@ -7,6 +7,7 @@
 //
 
 #import "JHLaunchViewController.h"
+#import "LFLivePreview.h"
 
 @interface JHLaunchViewController ()
 
@@ -23,6 +24,27 @@
         
     }];
 }
+
+- (IBAction)startLive:(id)sender {
+    
+    //推流页面可能来的很慢，会造成两个view的重叠，这时候，用一个黑屏来过渡一下
+    UIView * bgView = [[UIView alloc]initWithFrame:self.view.bounds];
+    bgView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:bgView];
+    
+    LFLivePreview * preView = [[LFLivePreview alloc]initWithFrame:self.view.bounds];
+    
+    preView.vc = self;
+    
+    [self.view addSubview:preView];
+    
+    //开启直播
+    [preView startLive];
+    
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

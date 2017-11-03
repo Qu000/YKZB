@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_zbfx" translatesAutoresizingMaskIntoConstraints="NO" id="dAo-AU-FgH">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zbbj" translatesAutoresizingMaskIntoConstraints="NO" id="dAo-AU-FgH">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjP-lM-tbn">
@@ -29,20 +29,53 @@
                         <action selector="closeLaunch:" destination="-1" eventType="touchUpInside" id="jVi-vf-k43"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbV-7Z-qag">
+                    <rect key="frame" x="10" y="20" width="57" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="重庆" image="launch_map_on"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krM-nJ-qCd">
+                    <rect key="frame" x="62.5" y="311.5" width="250" height="44"/>
+                    <state key="normal" title="开始直播" backgroundImage="room_button">
+                        <color key="titleColor" red="0.22352941179999999" green="0.72549019609999998" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="startLive:" destination="-1" eventType="touchUpInside" id="9iq-UM-akV"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="起个标题呗" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rBu-yH-10A">
+                    <rect key="frame" x="62.5" y="251.5" width="250" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="ANE-Pg-Zak"/>
+                        <constraint firstAttribute="height" constant="30" id="cNR-lX-A8E"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="xjP-lM-tbn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1Vg-sg-XKn"/>
                 <constraint firstAttribute="bottom" secondItem="dAo-AU-FgH" secondAttribute="bottom" id="59W-Ms-7h3"/>
+                <constraint firstItem="BbV-7Z-qag" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="7g9-4D-lVN"/>
                 <constraint firstAttribute="trailing" secondItem="dAo-AU-FgH" secondAttribute="trailing" id="9zP-z2-DFI"/>
+                <constraint firstItem="krM-nJ-qCd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Csu-nh-GJF"/>
+                <constraint firstItem="krM-nJ-qCd" firstAttribute="top" secondItem="rBu-yH-10A" secondAttribute="bottom" constant="30" id="Jw9-XE-Iu5"/>
+                <constraint firstItem="krM-nJ-qCd" firstAttribute="centerX" secondItem="rBu-yH-10A" secondAttribute="centerX" id="NpV-HX-tAO"/>
+                <constraint firstItem="krM-nJ-qCd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XgW-7S-jQg"/>
+                <constraint firstItem="BbV-7Z-qag" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="gF1-mS-wDH"/>
                 <constraint firstItem="dAo-AU-FgH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kim-2e-RAV"/>
                 <constraint firstItem="dAo-AU-FgH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="opX-cd-MIG"/>
                 <constraint firstAttribute="trailing" secondItem="xjP-lM-tbn" secondAttribute="trailing" id="uZO-PV-jby"/>
             </constraints>
+            <point key="canvasLocation" x="33.5" y="76.5"/>
         </view>
     </objects>
     <resources>
-        <image name="bg_zbfx" width="16" height="16"/>
         <image name="launch_close" width="64" height="64"/>
+        <image name="launch_map_on" width="26" height="26"/>
+        <image name="room_button" width="250" height="44"/>
+        <image name="zbbj" width="16" height="16"/>
     </resources>
 </document>

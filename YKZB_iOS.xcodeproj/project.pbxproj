@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511F49A71FAC005100268612 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F49A61FAC005100268612 /* LFLivePreview.m */; };
 		5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */; };
 		5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD221FA4273500C9A7B7 /* JHTabBar.m */; };
 		5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */; };
@@ -85,6 +86,8 @@
 
 /* Begin PBXFileReference section */
 		43F46EDC8F08255AE95BFF98 /* Pods-YKZB_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKZB_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKZB_iOSTests/Pods-YKZB_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		511F49A51FAC005100268612 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		511F49A61FAC005100268612 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
 		5147AD1E1FA4271200C9A7B7 /* JHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBarViewController.h; sourceTree = "<group>"; };
 		5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBarViewController.m; sourceTree = "<group>"; };
 		5147AD211FA4273500C9A7B7 /* JHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBar.h; sourceTree = "<group>"; };
@@ -227,6 +230,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511F49A41FAC003200268612 /* 录播 */ = {
+			isa = PBXGroup;
+			children = (
+				511F49A51FAC005100268612 /* LFLivePreview.h */,
+				511F49A61FAC005100268612 /* LFLivePreview.m */,
+			);
+			name = "录播";
+			sourceTree = "<group>";
+		};
 		517A9DB91FA4116000906662 = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +554,7 @@
 			children = (
 				5149F92B1FA4704900AA5FC6 /* JHMainTopView.h */,
 				5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */,
+				511F49A41FAC003200268612 /* 录播 */,
 				51AC6C181FAAF4040084A2E9 /* 广告页 */,
 				51C5E5E01FA9FBFE0012CCAC /* 热门直播 */,
 				51C5E5E11FA9FC110012CCAC /* 附近直播 */,
@@ -911,6 +924,7 @@
 				51B597951FA56E8F0089D6B1 /* JHLiveHandler.m in Sources */,
 				5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */,
 				51B5979D1FA578B20089D6B1 /* JHCreator.m in Sources */,
+				511F49A71FAC005100268612 /* LFLivePreview.m in Sources */,
 				51C5E5DC1FA9C5090012CCAC /* JHExtra.m in Sources */,
 				5149F91F1FA462D700AA5FC6 /* JHFocuseViewController.m in Sources */,
 				51B597971FA573A10089D6B1 /* Foundation+Log.m in Sources */,
