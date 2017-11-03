@@ -38,6 +38,10 @@ static NSString *identifier = @"JHLiveCell";
 }
 
 - (void)updateUI{
+    
+    self.tableView.separatorColor = JHRGB(0, 187, 174);
+    self.tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     [self.tableView registerNib:[UINib nibWithNibName:@"JHLiveCell" bundle:nil] forCellReuseIdentifier:identifier];
     
 }

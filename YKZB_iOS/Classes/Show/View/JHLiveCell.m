@@ -26,12 +26,20 @@
 -(void)setLive:(JHLive *)live{
 
     _live = live;
-    [self.headView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait] placeholder:@"default_room"];
-    [self.bigImageView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait] placeholder:@"default_room"];
     
     self.nameLabel.text = live.creator.nick;
     self.locationLabel.text = live.city;
     self.onLineLabel.text = [@(live.onlineUsers) stringValue];
+    
+    //关注-造的假数据-这里进行判断
+    if ([live.creator.nick isEqualToString:@"福尔摩洪"]) {
+        self.headView.image = [UIImage imageNamed:@"FEMH"];
+        self.bigImageView.image = [UIImage imageNamed:@"FEMH"];
+    }else{
+        [self.headView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait] placeholder:@"default_room"];
+        [self.bigImageView downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait] placeholder:@"default_room"];
+    }
+   
 }
 
 - (void)awakeFromNib {
