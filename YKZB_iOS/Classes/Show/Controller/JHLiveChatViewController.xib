@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="iconBtn" destination="oz5-X2-JBP" id="n03-Qm-9hT"/>
                 <outlet property="onlineLab" destination="GAY-Mz-GgJ" id="2vL-mm-o35"/>
+                <outlet property="shareBtn" destination="0mF-3c-OI3" id="MAn-Kg-dp2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

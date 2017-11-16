@@ -47,7 +47,7 @@ static NSString * identifier = @"JHNearLiveCell";
 -(void)loadData{
 
     [JHLiveHandler executeGetNearLiveTaskWithSuccess:^(id obj) {
-        NSLog(@"%@",obj);
+//        NSLog(@"%@",obj);
         self.dataList = obj;
         
         [self.collectionView reloadData];

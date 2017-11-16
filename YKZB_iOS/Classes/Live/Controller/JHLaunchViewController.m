@@ -43,7 +43,13 @@
     
 }
 
-
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+//    return UIInterfaceOrientationMaskLandscape;
+//}
+//
+//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+//    return YES;
+//}
 
 
 - (void)didReceiveMemoryWarning {

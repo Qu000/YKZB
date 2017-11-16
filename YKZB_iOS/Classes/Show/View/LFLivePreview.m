@@ -11,6 +11,7 @@
 #import "UIView+YYAdd.h"
 #import "LFLiveKit.h"
 
+
 inline static NSString *formatedSpeed(float bytes, float elapsed_milli) {
     if (elapsed_milli <= 0) {
         return @"N/A";
@@ -161,126 +162,35 @@ inline static NSString *formatedSpeed(float bytes, float elapsed_milli) {
 
 
         /***   默认分辨率368 ＊ 640  音频：44.1 iphone6以上48  双声道  方向竖屏 ***/
-        LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
-        
-        /*
-        videoConfiguration.videoSize = CGSizeMake(640, 360);
-        videoConfiguration.videoBitRate = 800*1024;
-        videoConfiguration.videoMaxBitRate = 1000*1024;
-        videoConfiguration.videoMinBitRate = 500*1024;
-        videoConfiguration.videoFrameRate = 24;
-        videoConfiguration.videoMaxKeyframeInterval = 48;
-        videoConfiguration.outputImageOrientation = UIInterfaceOrientationLandscapeLeft;//设置录播为横竖屏
-        videoConfiguration.autorotate = NO;
-        videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
-         */
+//        LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration defaultConfiguration];
+//        
+//        LFLiveAudioConfiguration * audioConfiguration =[LFLiveAudioConfiguration defaultConfiguration];
+     
+//        videoConfiguration.videoSize = CGSizeMake(640, 360);
+//        videoConfiguration.videoBitRate = 800*1024;
+//        videoConfiguration.videoMaxBitRate = 1000*1024;
+//        videoConfiguration.videoMinBitRate = 500*1024;
+//        videoConfiguration.videoFrameRate = 24;
+//        videoConfiguration.videoMaxKeyframeInterval = 48;
+//        videoConfiguration.outputImageOrientation = UIDeviceOrientationPortrait;//设置录播为横竖屏
+//        videoConfiguration.autorotate = NO;
+//        videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
+      
         //这中间的是设置自己想要的，可以注释掉，就会是默认设置
         /***   默认分辨率368 ＊ 640  音频：44.1 iphone6以上48  双声道  方向竖屏 ***/
         
         
-        _session = [[LFLiveSession alloc] initWithAudioConfiguration:[LFLiveAudioConfiguration defaultConfiguration] videoConfiguration:videoConfiguration captureType:LFLiveCaptureDefaultMask];
+//        _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:videoConfiguration captureType:LFLiveCaptureDefaultMask];
 
-        /**    自己定制单声道  */
-        /*
-           LFLiveAudioConfiguration *audioConfiguration = [LFLiveAudioConfiguration new];
-           audioConfiguration.numberOfChannels = 1;
-           audioConfiguration.audioBitrate = LFLiveAudioBitRate_64Kbps;
-           audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-           _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:[LFLiveVideoConfiguration defaultConfiguration]];
-         */
-
-        /**    自己定制高质量音频96K */
-        /*
-           LFLiveAudioConfiguration *audioConfiguration = [LFLiveAudioConfiguration new];
-           audioConfiguration.numberOfChannels = 2;
-           audioConfiguration.audioBitrate = LFLiveAudioBitRate_96Kbps;
-           audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-           _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:[LFLiveVideoConfiguration defaultConfiguration]];
-         */
-
-        /**    自己定制高质量音频96K 分辨率设置为540*960 方向竖屏 */
-
-        /*
-           LFLiveAudioConfiguration *audioConfiguration = [LFLiveAudioConfiguration new];
-           audioConfiguration.numberOfChannels = 2;
-           audioConfiguration.audioBitrate = LFLiveAudioBitRate_96Kbps;
-           audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-
-           LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
-           videoConfiguration.videoSize = CGSizeMake(540, 960);
-           videoConfiguration.videoBitRate = 800*1024;
-           videoConfiguration.videoMaxBitRate = 1000*1024;
-           videoConfiguration.videoMinBitRate = 500*1024;
-           videoConfiguration.videoFrameRate = 24;
-           videoConfiguration.videoMaxKeyframeInterval = 48;
-           videoConfiguration.orientation = UIInterfaceOrientationPortrait;
-           videoConfiguration.sessionPreset = LFCaptureSessionPreset540x960;
-
-           _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:videoConfiguration];
-         */
-
-
-        /**    自己定制高质量音频128K 分辨率设置为720*1280 方向竖屏 */
-
-        /*
-           LFLiveAudioConfiguration *audioConfiguration = [LFLiveAudioConfiguration new];
-           audioConfiguration.numberOfChannels = 2;
-           audioConfiguration.audioBitrate = LFLiveAudioBitRate_128Kbps;
-           audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-
-           LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
-           videoConfiguration.videoSize = CGSizeMake(720, 1280);
-           videoConfiguration.videoBitRate = 800*1024;
-           videoConfiguration.videoMaxBitRate = 1000*1024;
-           videoConfiguration.videoMinBitRate = 500*1024;
-           videoConfiguration.videoFrameRate = 15;
-           videoConfiguration.videoMaxKeyframeInterval = 30;
-           videoConfiguration.landscape = NO;
-           videoConfiguration.sessionPreset = LFCaptureSessionPreset360x640;
-
-           _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:videoConfiguration];
-         */
-
-
-        /**    自己定制高质量音频128K 分辨率设置为720*1280 方向横屏  */
-
-        /*
-           LFLiveAudioConfiguration *audioConfiguration = [LFLiveAudioConfiguration new];
-           audioConfiguration.numberOfChannels = 2;
-           audioConfiguration.audioBitrate = LFLiveAudioBitRate_128Kbps;
-           audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-
-           LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
-           videoConfiguration.videoSize = CGSizeMake(1280, 720);
-           videoConfiguration.videoBitRate = 800*1024;
-           videoConfiguration.videoMaxBitRate = 1000*1024;
-           videoConfiguration.videoMinBitRate = 500*1024;
-           videoConfiguration.videoFrameRate = 15;
-           videoConfiguration.videoMaxKeyframeInterval = 30;
-           videoConfiguration.landscape = YES;
-           videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
-
-           _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:videoConfiguration];
-        */
-
+        
+        _session = [[LFLiveSession alloc] initWithAudioConfiguration:[LFLiveAudioConfiguration defaultConfiguration] videoConfiguration:[LFLiveVideoConfiguration defaultConfiguration]];
+        
+        _session.preView = self;
+        
         _session.delegate = self;
         _session.showDebugInfo = NO;
         _session.preView = self;
-        
-        /*本地存储*/
-//        _session.saveLocalVideo = YES;
-//        NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie.mp4"];
-//        unlink([pathToMovie UTF8String]); // If a file already exists, AVAssetWriter won't let you record new frames, so delete the old movie
-//        NSURL *movieURL = [NSURL fileURLWithPath:pathToMovie];
-//        _session.saveLocalVideoPath = movieURL;
-        
-        /*
-        UIImageView *imageView = [[UIImageView alloc] init];
-        imageView.alpha = 0.8;
-        imageView.frame = CGRectMake(100, 100, 29, 29);
-        imageView.image = [UIImage imageNamed:@"ios-29x29"];
-        _session.warterMarkView = imageView;*/
-        
+     
     }
     return _session;
 }
@@ -407,13 +317,22 @@ inline static NSString *formatedSpeed(float bytes, float elapsed_milli) {
  */
 -(void)startLive{
     
+//    LFLiveStreamInfo *stream = [LFLiveStreamInfo new];
+//    // 如果是跟我blog教程搭建的本地服务器, 记得填写你电脑的IP地址
+//    stream.url = @"rtmp://192.168.1.108:1935/rtmplive/room";
+//    self.rtmpUrl = stream.url;
+//    [self.session startLive:stream];
     //开启直播
     LFLiveStreamInfo *stream = [LFLiveStreamInfo new];
-    stream.url = @"rtmp://live.hkstv.hk.lxdns.com:1935/live/stream153";
+    stream.url = Live_FEMH;
+    //rtmp://live.hkstv.hk.lxdns.com:1935/live/stream799
+//    stream.streamId = @"stream153";
     [self.session startLive:stream];
 
 }
-
+//    stream.streamId = @"stream153";
+//Live_FEMH
+//@"rtmp://live.hkstv.hk.lxdns.com:1935/live/stream153"
 /**
  点击结束直播，就直接结束录播（自己写好提供外界的方法）
  */

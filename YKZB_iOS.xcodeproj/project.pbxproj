@@ -20,6 +20,7 @@
 		513433121FAC504F00876528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513433111FAC504F00876528 /* CoreGraphics.framework */; };
 		513433141FAC505E00876528 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513433131FAC505E00876528 /* AVFoundation.framework */; };
 		513433161FAC506B00876528 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513433151FAC506B00876528 /* AudioToolbox.framework */; };
+		5134337A1FAC978200876528 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 513433791FAC978200876528 /* libstdc++.tbd */; };
 		5147AD201FA4271200C9A7B7 /* JHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */; };
 		5147AD231FA4273500C9A7B7 /* JHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147AD221FA4273500C9A7B7 /* JHTabBar.m */; };
 		5149F9091FA4357200AA5FC6 /* JHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9081FA4357200AA5FC6 /* JHBaseViewController.m */; };
@@ -39,6 +40,13 @@
 		5149F92D1FA4704900AA5FC6 /* JHMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F92C1FA4704900AA5FC6 /* JHMainTopView.m */; };
 		5149F9351FA4829E00AA5FC6 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9321FA4829E00AA5FC6 /* HttpTool.m */; };
 		5149F9361FA4829E00AA5FC6 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149F9341FA4829E00AA5FC6 /* UIImageView+SDWebImage.m */; };
+		515D88591FB0AF4900C690B4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D88581FB0AF4800C690B4 /* Accelerate.framework */; };
+		515D885B1FB0AF5700C690B4 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D885A1FB0AF5700C690B4 /* AssetsLibrary.framework */; };
+		515D885D1FB0AF8300C690B4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D885C1FB0AF8200C690B4 /* CoreImage.framework */; };
+		515D885F1FB0AF9400C690B4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D885E1FB0AF9300C690B4 /* CoreText.framework */; };
+		515D88611FB0AFA800C690B4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D88601FB0AFA700C690B4 /* ImageIO.framework */; };
+		515D88631FB0AFBF00C690B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D88621FB0AFBE00C690B4 /* Security.framework */; };
+		515D88651FB0AFCD00C690B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515D88641FB0AFCD00C690B4 /* SystemConfiguration.framework */; };
 		517A9DC71FA4116000906662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC61FA4116000906662 /* main.m */; };
 		517A9DCA1FA4116000906662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A9DC91FA4116000906662 /* AppDelegate.m */; };
 		517A9DD01FA4116000906662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A9DCE1FA4116000906662 /* Main.storyboard */; };
@@ -100,6 +108,7 @@
 		513433111FAC504F00876528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		513433131FAC505E00876528 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		513433151FAC506B00876528 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		513433791FAC978200876528 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		5147AD1E1FA4271200C9A7B7 /* JHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBarViewController.h; sourceTree = "<group>"; };
 		5147AD1F1FA4271200C9A7B7 /* JHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBarViewController.m; sourceTree = "<group>"; };
 		5147AD211FA4273500C9A7B7 /* JHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBar.h; sourceTree = "<group>"; };
@@ -133,6 +142,13 @@
 		5149F9321FA4829E00AA5FC6 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		5149F9331FA4829E00AA5FC6 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
 		5149F9341FA4829E00AA5FC6 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		515D88581FB0AF4800C690B4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		515D885A1FB0AF5700C690B4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		515D885C1FB0AF8200C690B4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		515D885E1FB0AF9300C690B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		515D88601FB0AFA700C690B4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		515D88621FB0AFBE00C690B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		515D88641FB0AFCD00C690B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		517A9DC21FA4116000906662 /* YKZB_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKZB_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A9DC61FA4116000906662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		517A9DC81FA4116000906662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -200,6 +216,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515D88651FB0AFCD00C690B4 /* SystemConfiguration.framework in Frameworks */,
+				515D88631FB0AFBF00C690B4 /* Security.framework in Frameworks */,
+				515D88611FB0AFA800C690B4 /* ImageIO.framework in Frameworks */,
+				515D885F1FB0AF9400C690B4 /* CoreText.framework in Frameworks */,
+				515D885D1FB0AF8300C690B4 /* CoreImage.framework in Frameworks */,
+				515D885B1FB0AF5700C690B4 /* AssetsLibrary.framework in Frameworks */,
+				515D88591FB0AF4900C690B4 /* Accelerate.framework in Frameworks */,
+				5134337A1FAC978200876528 /* libstdc++.tbd in Frameworks */,
 				513433161FAC506B00876528 /* AudioToolbox.framework in Frameworks */,
 				513433141FAC505E00876528 /* AVFoundation.framework in Frameworks */,
 				513433121FAC504F00876528 /* CoreGraphics.framework in Frameworks */,
@@ -672,6 +696,14 @@
 		88A7EE49287FD72E5F854473 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				515D88641FB0AFCD00C690B4 /* SystemConfiguration.framework */,
+				515D88621FB0AFBE00C690B4 /* Security.framework */,
+				515D88601FB0AFA700C690B4 /* ImageIO.framework */,
+				515D885E1FB0AF9300C690B4 /* CoreText.framework */,
+				515D885C1FB0AF8200C690B4 /* CoreImage.framework */,
+				515D885A1FB0AF5700C690B4 /* AssetsLibrary.framework */,
+				515D88581FB0AF4800C690B4 /* Accelerate.framework */,
+				513433791FAC978200876528 /* libstdc++.tbd */,
 				513433151FAC506B00876528 /* AudioToolbox.framework */,
 				513433131FAC505E00876528 /* AVFoundation.framework */,
 				513433111FAC504F00876528 /* CoreGraphics.framework */,
@@ -760,6 +792,7 @@
 				TargetAttributes = {
 					517A9DC11FA4116000906662 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L9687TNJ7S;
 						ProvisioningStyle = Automatic;
 					};
 					517A9DDA1FA4116000906662 = {
@@ -1087,6 +1120,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L9687TNJ7S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1096,6 +1130,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.YKZB-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1105,6 +1140,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L9687TNJ7S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1114,6 +1150,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.YKZB-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
