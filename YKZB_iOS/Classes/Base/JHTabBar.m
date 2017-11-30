@@ -14,7 +14,7 @@
 
 @property (nonatomic, strong)NSArray * dataList;
 
-@property (nonatomic, strong) UIButton * lastItem;;
+@property (nonatomic, strong) UIButton * lastItem;
 
 @property (nonatomic, strong) UIButton * cameraButton;
 @end

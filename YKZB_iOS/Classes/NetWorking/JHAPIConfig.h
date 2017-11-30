@@ -47,7 +47,7 @@
 //@"api/live/near_recommend"//?uid=85149891&latitude=40.090562&longitude=116.413353
 
 //福尔摩洪直播地址
-#define Live_FEMH @"rtmp://172.25.7.8:1935/rtmplive/room"
+#define Live_FEMH @"rtmp://192.168.2.21:1935/rtmplive/room"
 //@"rtmp://172.17.15.10:1935/rtmplive/room"
 //@"rtmp://localhost:1935/rtmplive/FEMH"
 //@"rtmp://live.hkstv.hk.lxdns.com:1935/live/FEMH/1"
